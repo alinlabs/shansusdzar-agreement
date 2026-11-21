@@ -1,0 +1,1027 @@
+{
+  "contracts": {
+    "alin-shansus-web-001": {
+      "id": "alin-shansus-web-001",
+      "version": 1,
+      "status": "FINAL_LOCKED",
+      "createdAt": "2026-11-22T09:00:00.000Z",
+      "updatedAt": "2026-11-22T09:00:00.000Z",
+      "lastSavedBy": "AlinLabs Indonesia Legal Engine (.ts)",
+      "lockedAt": "2026-11-22T09:00:00.000Z",
+      "lockedHash": "0e367c5be98cfc4373f6a5de272d53cff7cc68cde36e4ab17cb266a853d33c63",
+      "agreement": {
+        "contractNumber": "ALINLABS/SDI/AGR/3-048/XI/2026",
+        "numberConfig": {
+          "prefix": "ALINLABS/AGR",
+          "clientCode": "SDI",
+          "sequenceNumber": 48,
+          "useRomanMonth": true,
+          "year": 2026,
+          "autoFormat": true
+        },
+        "signingCity": "Purwakarta",
+        "agreementDate": "2026-11-22",
+        "governingLanguage": "Bahasa Indonesia",
+        "counterpartsCount": 2
+      },
+      "firstParty": {
+        "roleLabel": "PIHAK PERTAMA (KLIEN / PEMBELI)",
+        "legalName": "Shansus Dzar Indonesia",
+        "commercialName": "Shansus Dzar Indonesia",
+        "entityType": "Badan Usaha / Perusahaan",
+        "businessField": "Interior Design & Building",
+        "address": "Kp. Tegal Jati, Desa Cibogohilir, Kec. Plered, Kab. Purwakarta, Jawa Barat 41162",
+        "nib": "......................",
+        "npwp": "......................",
+        "directorName": "H. M. Hilman Aziz Napis, S.E",
+        "directorTitle": "Pemilik Usaha Shansus Dzar Indonesia",
+        "authorityBasis": "Akta Pendirian / Surat Kuasa Direksi yang berlaku sah",
+        "phone": "085314205258",
+        "email": "shansusdzardigital.id@gmail.com"
+      },
+      "secondParty": {
+        "roleLabel": "PIHAK KEDUA (PENYEDIA JASA / PENGEMBANG)",
+        "legalName": "AlinLabs Indonesia",
+        "commercialName": "AlinLabs Indonesia",
+        "entityType": "Badan Usaha / Perusahaan Teknologi Digital",
+        "businessField": "Digital Agency, Website Development, Artificial Intelligence & Digital Solutions",
+        "address": "Jln. Rawa Sari, Kel. Munjuljaya, Kec. Purwakarta, Kab. Purwakarta, Jawa Barat 41117",
+        "nib": "......................",
+        "npwp": "......................",
+        "directorName": "Alvareza Hilka Pratama, S.M.",
+        "directorTitle": "Pemilik Usaha AlinLabs Indonesia",
+        "authorityBasis": "Akta Pendirian / Surat Kuasa Direksi yang berlaku sah",
+        "phone": "085797184059",
+        "email": "office.alincorporation@gmail.com"
+      },
+      "project": {
+        "projectName": "Pembuatan dan Pengembangan Website Resmi Shansus Dzar Indonesia",
+        "websiteType": "Website Korporasi, Katalog Layanan & Portofolio Proyek Interior Design & Building",
+        "websitePurpose": "Membangun representasi digital resmi Shansus Dzar Indonesia untuk menampilkan portofolio desain interior dan konstruksi bangunan, profil perusahaan, kapabilitas layanan, serta kanal akuisisi konsultasi proyek secara profesional.",
+        "startDate": "",
+        "targetEndDate": "",
+        "estimatedDurationDays": 11,
+        "clientFeedbackMaxDays": 5,
+        "milestones": [
+          {
+            "id": "ms-1",
+            "phase": "Tahap I — Pengerjaan & Pengembangan Website (Maks. 3 Hari)",
+            "deliverable": "Pengerjaan maksimal 3 (tiga) hari kalender terhitung sejak tanggal terbit kontrak, meliputi pembangunan halaman inti website, Halaman Admin Keuangan, Halaman Pengaturan, Halaman Hak Akses Super Admin / Owner (React 19 + Vite 8 + TypeScript + Tailwind CSS v4), Domain shansusdzar.com, Hosting Alinlabs Server, Database SQL (Drizzle ORM) & Cloud 10GB Alinlabs Cloud, serta Setup Search Console, GA4 & GEO /llms.txt.",
+            "durationDays": 3,
+            "targetDate": ""
+          },
+          {
+            "id": "ms-2",
+            "phase": "Tahap II — User Test & Masa Percobaan Revisi (Maks. 5 Hari)",
+            "deliverable": "Penyerahan hasil Website melalui URL staging https://shansusdzar.vercel.app kepada Pihak Pertama untuk uji coba pengguna (user test) selama maksimal 5 (lima) hari kalender masa percobaan guna memeriksa fungsi dan menyampaikan daftar revisi.",
+            "durationDays": 5,
+            "targetDate": ""
+          },
+          {
+            "id": "ms-3",
+            "phase": "Tahap III — Perbaikan Revisi, Pelunasan Sebelum Deploy & Publish (3 Hari)",
+            "deliverable": "Pengerjaan perbaikan atas seluruh catatan revisi dari masa percobaan (tester) serta setelah pelunasan sisa nilai kontrak termasuk PPN sebesar Rp 1.155.000 dilakukan sebelum deploy, dilanjutkan peluncuran (deploy) dan publikasi lengkap Website ke domain https://shansusdzar.com pada Alinlabs Server dalam waktu 3 (tiga) hari kalender hingga siap diakses publik.",
+            "durationDays": 3,
+            "targetDate": ""
+          }
+        ]
+      },
+      "scope": {
+        "pagesList": [
+          "**Beranda**\n  Hero video VP9 ringan + poster WebP, Promo/Countdown Timer, sekilas portofolio, katalog, tips & info, tata cara pemesanan, serta peta vektor SVG lokasi usaha Purwakarta.",
+          "**Tentang**\n  Profil workshop Shansus Dzar Indonesia, Visi, Misi, Keunggulan, profil Owner, & Tim.",
+          "**Katalog**\n  Katalog produk & jasa terhubung Alinlabs Cloud SQL Database beserta Kalkulator Estimator.",
+          "**Pemesanan**\n  Form pembeli dengan HTML5 Geolocation opt-in, ringkasan PDF A4, & integrasi WhatsApp (https://wa.me/6285314205258).",
+          "**Info (Tips, Edukasi & Berita)**\n  Publikasi artikel informasi beserta Panel Admin CMS pengelolaan konten.",
+          "**Portofolio**\n  Galeri gambar, detail & harga proyek beserta Panel Admin CMS pengelolaan portofolio.",
+          "**Halaman Admin Keuangan**\n  Panel administrasi khusus pengelolaan keuangan usaha (pencatatan pemasukan, pengeluaran, rekap transaksi, arus kas, & laporan keuangan) dengan proteksi RBAC.",
+          "**Halaman Pengaturan**\n  Pengaturan preferensi sistem & akun untuk mengubah bahasa, tema tampilan (gelap/terang), kredensial akun, serta konfigurasi akun sejenisnya.",
+          "**Halaman Hak Akses (Super Admin / Owner)**\n  Panel otorisasi khusus Super Admin / Owner untuk melakukan invite (undangan), persetujuan (approval), serta pengaturan hak akses akun-akun admin."
+        ],
+        "featuresList": [
+          "**Arsitektur Modern**\n  SPA React 19 (19.0.1) + Vite 8 (8.3.0) + React Router v8 (8.5.1) & TypeScript (7.0.2) terhubung Edge API Backend (Alinlabs Server TypeScript).",
+          "**Katalog & Pemesanan WhatsApp**\n  Katalog harga + Kalkulator Estimator interaktif, dokumen ringkasan PDF A4 (jsPDF + pdfjs-dist), serta integrasi langsung WhatsApp (085314205258) dengan Web Share API & fallback unduh PDF.",
+          "**Panel Admin CMS, Keuangan, Pengaturan & Hak Akses**\n  Pengelolaan Halaman Info, Portofolio, katalog produk, testimoni, profil workshop, log pesanan, modul Admin Keuangan (pemasukan, pengeluaran, & laporan kas), Halaman Pengaturan (bahasa, tema, kredensial akun), serta Halaman Hak Akses Super Admin / Owner (invite, persetujuan, & hak akses akun-akun admin) dengan proteksi RBAC + Session Token terenkripsi.",
+          "**Infrastruktur 1 Pintu Alinlabs (Domain 1 Tahun)**\n  Managed Domain shansusdzar.com (masa aktif 1 tahun; wajib reaktivasi setelah 1 tahun pada kisaran harga setara/menyesuaikan tarif provider & kurs), Hosting Alinlabs Server, URL Staging https://shansusdzar.vercel.app, serta Database SQL (Drizzle ORM) + Object Storage 10GB di Alinlabs Cloud.",
+          "**SEO, Analitik & GEO (AI Search)**\n  Setup Google Search Console (DNS TXT & Sitemap XML), Google Analytics 4 (GA4), Schema.org FurnitureStore/Product, robots.txt, & /llms.txt.",
+          "**Pembayaran Kartu (Opsional)**\n  Integrasi Visa Card / Payment Gateway berstandar PCI-DSS belum diaktifkan pada fase awal (kesiapan arsitektur tersedia untuk fase lanjutan)."
+        ],
+        "uiUxDesign": "• **Framework & Design System**\n  Tailwind CSS v4 (4.3.3) + Custom CSS Design Tokens (src/styles/tokens.css).\n• **Tema & Tipografi**\n  Default tema gelap dengan opsi tema terang, serta self-hosted font @fontsource-variable/inter (WOFF2).\n• **Interaksi & Ikon**\n  Animasi halus menggunakan Motion (12.23.24) & ikon Lucide React (0.546.0).",
+        "responsiveness": "• **Mobile-First Responsive**\n  Desktop (1440px+), Laptop (1024px+), Tablet (768px+), & Smartphone (320px-480px+).\n• **Navigasi & Aksesibilitas**\n  Header desktop, bottom navigation bar seluler, safe-area-inset, ARIA labels, & prefers-reduced-motion.\n• **Peramban Target**\n  Google Chrome, Apple Safari (Desktop & iOS), Mozilla Firefox, & Microsoft Edge versi modern.",
+        "apiIntegrations": "• **Backend & Database**\n  Edge API Backend (Alinlabs Server TypeScript) & Alinlabs Cloud SQL Database dengan Drizzle ORM (migrasi skema & prepared statements).\n• **State & Cache Klien**\n  Zustand (5.1.0), Service Worker (public/sw.js), Cache Storage, & localStorage.\n• **Media & File Storage**\n  Alinlabs Cloud Object Storage 10GB (S3-Compatible + CDN cache).",
+        "thirdPartyIntegrations": "• **Peta & Lokasi Workshop**\n  Peta vektor SVG interaktif ringan (tanpa ketergantungan kuota API berbayar) tertaut Google Maps lokasi Purwakarta + HTML5 Geolocation opt-in.\n• **WhatsApp Direct**\n  https://wa.me/6285314205258 (085314205258) dengan pesan otomatis & Web Share API PDF.\n• **Search & Analitik**\n  Google Search Console (verifikasi DNS TXT) & Google Analytics 4 (GA4).\n• **Payment Gateway (Opsional)**\n  Kesiapan arsitektur PCI-DSS (Visa Card belum diaktifkan pada fase awal).",
+        "cmsAdmin": "• **Autentikasi & Otorisasi**\n  Session Token terenkripsi (HttpOnly, Secure, SameSite=Strict Cookie / JWT berjangka pendek), hashing PBKDF2/Argon2id, & RBAC.\n• **Proteksi Gerbang Admin**\n  Rate Limiting login, verifikasi anti-bot, proteksi CSRF token mutasi, & Presigned Upload (validasi MIME & batas ukuran).\n• **Cakupan Manajemen, Keuangan & Hak Akses**\n  Halaman Info, Portofolio, Katalog, Testimoni, Profil Workshop, Log Pesanan, Halaman Admin Keuangan (pencatatan pemasukan, pengeluaran, & laporan arus kas), Halaman Pengaturan (bahasa, tema, & kredensial akun), serta Halaman Hak Akses Super Admin / Owner (invite, persetujuan, & pengaturan hak akses akun-akun admin).",
+        "includeAiFeatures": false,
+        "aiFeaturesDetail": "• **Status Modul Chatbot / LLM API**\n  Tidak termasuk fitur chatbot atau pemanggilan LLM API berbayar dalam lingkup inti.\n• **AI Search / GEO**\n  Disediakan berkas standar /llms.txt (dan opsional /llms-full.txt) di root domain shansusdzar.com.",
+        "deploymentServer": "• **Managed Domain & DNS 1 Pintu (Masa Aktif 1 Tahun)**\n  shansusdzar.com berlaku 1 (satu) tahun sejak aktivasi awal (A/CNAME, TXT, DNSSEC oleh AlinLabs Indonesia). Setelah 1 tahun domain tidak dapat aktif secara otomatis dan wajib direaktifkan kembali dengan nominal yang belum ditetapkan secara tetap namun berada di kisaran harga yang sama atau tidak jauh berbeda, menyesuaikan perubahan tarif provider maupun kurs mata uang.\n• **Hosting Produksi**\n  Alinlabs Server (Managed Edge & Static Hosting, Global CDN Cache, SPA Routing, Security Headers, & SSL/TLS 1.3 + HSTS).\n• **URL Staging / User Test**\n  https://shansusdzar.vercel.app.\n• **Cloud & Storage**\n  Alinlabs Cloud SQL Database + Object Storage 10GB.\n• **Pengelolaan Backup Server & Cloud (Tanggung Jawab Pihak Pertama / Opsional Berbayar)**\n  Pengelolaan backup rutin server dan Alinlabs Cloud tidak termasuk dalam paket kontrak awal dan diserahkan kepada Pihak Pertama. Apabila pengelolaan backup, penataan backup yang rapi, serta refresh dan pengoptimalisasian server kembali diserahkan kepada Pihak Kedua, dikenakan biaya tambahan sekitar Rp 150.000 hingga Rp 250.000 per project backup & refresh.",
+        "technicalDocumentation": "• Panduan penggunaan Panel Admin CMS, Halaman Admin Keuangan, Halaman Pengaturan (bahasa, tema, & kredensial akun), serta Halaman Hak Akses Super Admin / Owner (invite, persetujuan, & hak akses akun admin).\n• Ringkasan konfigurasi arsitektur React, Vite, Edge API, & akun Search Console / GA4.\n• Checklist serah terima teknis (BAST) dan pengujian fungsi di staging.",
+        "techStackDetail": "• **Frontend & Routing**\n  React 19 (19.0.1), Vite 8 (8.3.0), React Router v8 (8.5.1), TypeScript (7.0.2), & Tailwind CSS v4 (4.3.3).\n• **UI, State & Dokumen PDF**\n  Lucide React (0.546.0), Motion (12.23.24), Zustand (5.1.0), jsPDF (4.2.1), & pdfjs-dist (6.5.438).\n• **Backend, Database & Cache**\n  Edge API (Alinlabs Server TypeScript), Drizzle ORM, Alinlabs Cloud SQL & Object Storage 10GB (S3-Compatible), & Service Worker (public/sw.js).",
+        "securityArchitecture": "• **Transport & Perimeter**\n  HTTPS/TLS 1.3 + HSTS, Web Application Firewall (WAF), & Mitigasi DDoS pada Alinlabs Server.\n• **HTTP Security Headers**\n  CSP (domain utama & GA4), X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN, Referrer-Policy, & Permissions-Policy.\n• **Aplikasi & Rahasia Server**\n  Anti-XSS, anti-SQL Injection (parameterized query), CSRF token, Presigned Upload tervalidasi, & isolasi penuh Server Secrets.\n• **Komitmen Kepemilikan & Kerahasiaan Data**\n  Seluruh data usaha, data keuangan pada Halaman Admin Keuangan, basis data pelanggan, serta Informasi Rahasia di dalam sistem sepenuhnya merupakan hak milik mutlak dan kerahasiaan penuh Shansus Dzar Indonesia.",
+        "seoGeoPerformance": "• **On-Page & Schema.org**\n  Meta Title/Description dinamis, Canonical URL https://shansusdzar.com, OpenGraph, Twitter Card, & JSON-LD FurnitureStore + Product.\n• **Indexing & GEO (AI Search)**\n  robots.txt, sitemap.xml (https://shansusdzar.com/sitemap.xml), & /llms.txt agar dikutip akurat oleh ChatGPT, Gemini, Perplexity, & Claude.\n• **Optimasi Media & Vitals**\n  Gambar WebP, video hero VP9 (~4 MB) + poster fetchPriority=\"high\", Save-Data, Vite code-splitting, Cache-Control immutable 1 tahun, & optimasi LCP/CLS.",
+        "includedRevisions": 2,
+        "outOfScopePolicy": "Error yang bersumber dari code atau source code buatan AlinLabs Indonesia sepenuhnya menjadi tanggung jawab Pihak Kedua dengan garansi selamanya gratis. Dikecualikan untuk update source akibat perubahan kebijakan eksternal (seperti kebijakan Google dll) yang dikenakan biaya Rp 50.000 - Rp 150.000. Apabila terjadi pergantian fitur hingga perombakan setelah deploy (publish) baik minor maupun mayor, dikenakan charge biaya update berkisar mulai dari Rp 100.000 hingga seterusnya tergantung kompleksitas yang diminta. Pengelolaan backup server dan cloud tidak termasuk layanan rutin kontrak awal dan diserahkan kepada Pihak Pertama; apabila diserahkan kepada Pihak Kedua untuk penataan backup yang rapi serta refresh dan pengoptimalisasian server kembali, dikenakan biaya tambahan sekitar Rp 150.000 - Rp 250.000 per project backup & refresh."
+      },
+      "financial": {
+        "totalValue": 1855000,
+        "downPaymentPaid": 0,
+        "downPaymentDate": "",
+        "downPaymentInvoiceNumber": "",
+        "downPaymentReference": "",
+        "downPaymentMethod": "Transfer Bank SeaBank — No. Rekening 901387277710 a.n. Mela Melati Aprilia (Finance AlinLabs Indonesia)",
+        "taxMode": "INCLUDE_PPN",
+        "ppnPercentage": 11,
+        "taxableBaseValue": 500000,
+        "taxNote": "PPN 11% (Rp 55.000) hanya dikenakan atas komponen Domain (shansusdzar.com), Hosting (Alinlabs Server), serta Database & Cloud (Alinlabs Cloud) dengan dasar pengenaan Rp 500.000; komponen jasa pembuatan halaman website, halaman admin keuangan, halaman pengaturan, dan halaman hak akses tidak dikenakan PPN. Total Nilai Kontrak sebesar Rp 1.855.000 (dibayarkan dalam 2 tahap: DP Rp 700.000 dan pelunasan sisa setelah tester sebelum deploy/publikasi lengkap sebesar Rp 1.155.000 termasuk PPN).",
+        "additionalCostsNote": "Biaya registrasi awal Domain shansusdzar.com berlaku untuk masa aktif 1 (satu) tahun sejak aktivasi; setelah masa 1 tahun berakhir, domain otomatis tidak aktif dan wajib direaktifkan kembali oleh Pihak Pertama dengan nominal perpanjangan yang belum ditetapkan secara tetap namun berada pada kisaran harga yang sama atau tidak jauh berbeda, menyesuaikan perubahan tarif resmi provider domain maupun fluktuasi kurs mata uang. Biaya perpanjangan Hosting (Alinlabs Server) maupun penambahan kapasitas Database & Cloud (Alinlabs Cloud) periode berikutnya ditanggung Pihak Pertama sesuai tagihan aktual. Pengelolaan backup server dan cloud tidak termasuk dalam kontrak awal dan diserahkan kepada Pihak Pertama; apabila diserahkan kepada Pihak Kedua untuk melakukan backup yang rapi sekaligus refresh serta pengoptimalisasian server kembali, dikenakan biaya tambahan berkisar Rp 150.000 - Rp 250.000 per project backup & refresh. Update source akibat perubahan kebijakan pihak ketiga (seperti Google dll) dikenakan biaya Rp 50.000 - Rp 150.000, sedangkan pergantian fitur atau perombakan pasca deploy (minor/mayor) dikenakan charge update mulai dari Rp 100.000 sesuai kompleksitas.",
+        "costBreakdown": [
+          {
+            "id": "cost-1",
+            "itemName": "Halaman : Beranda",
+            "description": "Hero/Banner, Promo/Countdown Timer, sekilas portofolio, sekilas katalog, sekilas tips & info, sekilas tata cara pemesanan, serta Maps lokasi usaha.",
+            "amount": 100000,
+            "originalAmount": 119000,
+            "taxable": false
+          },
+          {
+            "id": "cost-2",
+            "itemName": "Halaman : Tentang",
+            "description": "Deskripsi perusahaan, Visi, Misi, Keunggulan, profil Owner, dan Tim.",
+            "amount": 100000,
+            "originalAmount": 119000,
+            "taxable": false
+          },
+          {
+            "id": "cost-3",
+            "itemName": "Halaman : Katalog",
+            "description": "Katalog gambar dan harga produk/jasa serta kalkulator estimator.",
+            "amount": 150000,
+            "originalAmount": 169000,
+            "taxable": false
+          },
+          {
+            "id": "cost-4",
+            "itemName": "Halaman : Pemesanan",
+            "description": "Form pembeli dan integrasi langsung WhatsApp.",
+            "amount": 150000,
+            "originalAmount": 169000,
+            "taxable": false
+          },
+          {
+            "id": "cost-5",
+            "itemName": "Halaman : Info (Tips, Edukasi & Berita)",
+            "description": "Halaman artikel Tips, Edukasi & Berita beserta panel admin pengelolaannya.",
+            "amount": 200000,
+            "originalAmount": 229000,
+            "taxable": false
+          },
+          {
+            "id": "cost-6",
+            "itemName": "Halaman : Portofolio",
+            "description": "Halaman Portofolio (gambar, detail & harga) beserta panel admin pengelolaannya.",
+            "amount": 200000,
+            "originalAmount": 229000,
+            "taxable": false
+          },
+          {
+            "id": "cost-7",
+            "itemName": "Halaman Admin : Keuangan",
+            "description": "Panel admin keuangan terproteksi RBAC untuk pencatatan pemasukan, pengeluaran, rekap transaksi, arus kas, dan laporan keuangan usaha.",
+            "amount": 400000,
+            "originalAmount": 549000,
+            "taxable": false
+          },
+          {
+            "id": "cost-8",
+            "itemName": "Halaman : Pengaturan",
+            "description": "Halaman pengaturan untuk mengubah bahasa, tema tampilan, kredensial akun, dan konfigurasi akun sejenisnya.",
+            "amount": 0,
+            "originalAmount": 99000,
+            "note": "Promo Gratis",
+            "taxable": false
+          },
+          {
+            "id": "cost-9",
+            "itemName": "Halaman Admin : Hak Akses",
+            "description": "Halaman hak akses untuk Super Admin / Owner melakukan invite, persetujuan (approval), atau pengaturan hak akses akun-akun admin.",
+            "amount": 0,
+            "originalAmount": 149000,
+            "note": "Promo Gratis",
+            "taxable": false
+          },
+          {
+            "id": "cost-10",
+            "itemName": "Domain : shansusdzar.com + Config",
+            "description": "Managed Domain & DNS 1 Pintu (A/CNAME, TXT, DNSSEC) shansusdzar.com masa aktif 1 tahun; setelah 1 tahun nonaktif dan wajib direaktifkan kembali sesuai tarif provider/kurs (kena PPN 11%).",
+            "amount": 200000,
+            "originalAmount": 229000,
+            "taxable": true
+          },
+          {
+            "id": "cost-11",
+            "itemName": "Hosting : Alinlabs Server + Config",
+            "description": "Managed Edge & Static Hosting pada Alinlabs Server (Global CDN Cache, WAF/DDoS, Security Headers, & SSL/TLS 1.3 HTTPS) + staging shansusdzar.vercel.app (kena PPN 11%).",
+            "amount": 50000,
+            "originalAmount": 57000,
+            "taxable": true
+          },
+          {
+            "id": "cost-12",
+            "itemName": "Database & Cloud 10GB : Alinlabs Cloud",
+            "description": "Alinlabs Cloud SQL Database (Drizzle ORM) + Object Storage 10GB CDN cache; integrasi Visa Card / Payment Gateway PCI-DSS opsional fase lanjutan (kena PPN 11%).",
+            "amount": 250000,
+            "originalAmount": 285000,
+            "taxable": true
+          },
+          {
+            "id": "cost-13",
+            "itemName": "Setup Search Console, GA4 & GEO",
+            "description": "Verifikasi DNS TXT Google Search Console, sitemap.xml, robots.txt, JSON-LD Schema.org, Google Analytics 4 (GA4), serta GEO /llms.txt.",
+            "amount": 0,
+            "originalAmount": 99000,
+            "note": "Promo Gratis",
+            "taxable": false
+          }
+        ],
+        "termins": [
+          {
+            "id": "term-1",
+            "description": "Pembayaran I — Uang Muka / DP (Rp 700.000)",
+            "percentage": 37.74,
+            "amount": 700000,
+            "trigger": "Pada saat penandatanganan Perjanjian Kerja Sama (atau diakui apabila telah dibayarkan sebelumnya)",
+            "dueDate": "",
+            "isPriorDp": true,
+            "status": "PENDING"
+          },
+          {
+            "id": "term-2",
+            "description": "Pembayaran II — Pelunasan Sisa Setelah Tester Sebelum Deploy (Termasuk PPN 11%)",
+            "percentage": 62.26,
+            "amount": 1155000,
+            "trigger": "Setelah masa uji coba (tester / user test) selesai dan wajib dilunasi sebelum Website di-deploy atau dipublikasikan lengkap ke internet (termasuk PPN Rp 55.000)",
+            "dueDate": "",
+            "isPriorDp": false,
+            "status": "PENDING"
+          }
+        ]
+      },
+      "legalSettings": {
+        "ipTransferCondition": "FULL_PAYMENT",
+        "sourceCodeHandover": false,
+        "reusableComponentsOwnedByDeveloper": true,
+        "allowPortfolioShowcase": true,
+        "includePdpRoleClause": true,
+        "warrantyDays": 0,
+        "bugFixResponseHours": 24,
+        "maintenanceMonthlyFee": 0,
+        "maintenanceScope": "Garansi perbaikan error source code berlaku selamanya gratis; update source kebijakan eksternal (Google dll) Rp 50.000 - Rp 150.000; perubahan fitur/perombakan pasca deploy mulai Rp 100.000; backup server & cloud diserahkan kepada Pihak Pertama (opsional dikerjakan Pihak Kedua Rp 150.000 - Rp 250.000 per project backup & refresh).",
+        "forceMajeureNoticeDays": 7,
+        "terminationNoticeDays": 14,
+        "disputeForum": "PENGADILAN_NEGERI",
+        "disputeJurisdiction": "Jakarta Selatan",
+        "stampDutyBearer": "EACH_PARTY"
+      },
+      "clauses": [
+        {
+          "id": "pasal-1",
+          "articleNumber": 1,
+          "title": "DEFINISI DAN RUANG LINGKUP PERJANJIAN",
+          "sectionGroup": "agreement-info",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Asas kepastian hukum perikatan (Pasal 1320 & Pasal 1338 KUHPerdata)",
+          "paragraphs": [
+            {
+              "id": "p1-1",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Perjanjian\" adalah Surat Perjanjian Kerja Sama Jasa Pembuatan dan Pengembangan Website ini beserta seluruh lampiran, rincian teknis, jadwal pelaksanaan, matriks layanan, dan setiap adendum tertulis yang ditandatangani oleh Para Pihak."
+            },
+            {
+              "id": "p1-2",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Pihak Pertama\" adalah Shansus Dzar Indonesia, badan usaha yang bergerak di bidang Interior Design & Building, selaku pengguna jasa yang memesan dan menerima hasil pengembangan Website."
+            },
+            {
+              "id": "p1-3",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Pihak Kedua\" adalah AlinLabs Indonesia, badan usaha yang bergerak di bidang Digital Agency, Website Development, Artificial Intelligence & Digital Solutions, selaku penyedia jasa pengembangan."
+            },
+            {
+              "id": "p1-4",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Website\" adalah keseluruhan sistem aplikasi web, antarmuka pengguna (UI/UX), struktur halaman, sistem manajemen konten (CMS), basis data, konfigurasi server produksi, dan integrasi terkait untuk proyek {{NAMA_PROYEK}}."
+            },
+            {
+              "id": "p1-5",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Jasa Pengembangan\" adalah serangkaian pekerjaan profesional meliputi analisis kebutuhan, perancangan desain UI/UX, pemrograman frontend dan backend, integrasi sistem, pengujian kelayakan (QA), pendampingan User Acceptance Testing (UAT), serta peluncuran (deployment) ke lingkungan produksi."
+            },
+            {
+              "id": "p1-6",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Deliverables\" atau Hasil Pekerjaan adalah seluruh keluaran terukur yang wajib diserahkan oleh Pihak Kedua kepada Pihak Pertama sebagaimana dirinci dalam Pasal 2, Pasal 7, dan Lampiran Perjanjian ini."
+            },
+            {
+              "id": "p1-7",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Perubahan Pekerjaan (Change Request)\" adalah setiap permintaan penambahan, pengurangan, atau modifikasi atas arsitektur, jumlah halaman, alur bisnis, desain pasca-persetujuan, atau integrasi pihak ketiga di luar spesifikasi Pasal 2."
+            },
+            {
+              "id": "p1-8",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Bug\" adalah galat pemrograman, cacat fungsi, atau ketidaksesuaian perilaku sistem terhadap spesifikasi teknis yang telah disepakati pada tahap desain dan pengembangan, yang bukan disebabkan oleh perubahan kode oleh pihak lain atau gangguan infrastruktur eksternal."
+            },
+            {
+              "id": "p1-9",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Garansi & Update Source\" adalah tanggung jawab penuh Pihak Kedua atas error pada code/source code dengan garansi selamanya tanpa biaya, berbeda dengan kebutuhan update source akibat perubahan kebijakan pihak ketiga/Google maupun perubahan fitur/perombakan pasca deploy."
+            },
+            {
+              "id": "p1-10",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Hari Kerja\" adalah hari Senin sampai dengan hari Jumat, kecuali hari libur nasional dan cuti bersama yang ditetapkan secara resmi oleh Pemerintah Republik Indonesia."
+            },
+            {
+              "id": "p1-11",
+              "optional": false,
+              "enabled": true,
+              "text": "\"Berita Acara Serah Terima (BAST)\" adalah dokumen tertulis atau elektronik yang ditandatangani oleh Para Pihak sebagai bukti sah bahwa Hasil Pekerjaan telah diuji, diterima, dan diserahterimakan."
+            }
+          ]
+        },
+        {
+          "id": "pasal-2",
+          "articleNumber": 2,
+          "title": "RUANG LINGKUP PEKERJAAN",
+          "sectionGroup": "scope-of-work",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Hal tertentu sebagai objek perjanjian yang sah (Pasal 1320 KUHPerdata)",
+          "paragraphs": [
+            {
+              "id": "p2-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama menunjuk Pihak Kedua untuk merancang, membangun, menguji, dan meluncurkan Website sesuai rincian spesifikasi teknis yang tercantum pada tabel Rincian Ruang Lingkup Teknis Pekerjaan di bawah pasal ini."
+            },
+            {
+              "id": "p2-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Setelah tahap pengerjaan awal (maksimal 3 hari kalender), Pihak Kedua menyerahkan hasil Website kepada Pihak Pertama untuk uji coba pengguna (user test) selama maksimal {{FEEDBACK_KLIEN_HARI}} (lima) hari kalender masa percobaan guna pengajuan revisi, yang selanjutnya diselesaikan dalam 3 (tiga) hari kalender sekaligus peluncuran (deploy/publish) ke internet."
+            },
+            {
+              "id": "p2-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Setiap fitur Artificial Intelligence (AI), modul automasi lanjutan, sistem transaksi pembayaran daring kompleks, atau integrasi perangkat lunak eksternal yang tidak tercantum secara eksplisit dalam tabel spesifikasi Pasal 2 tidak termasuk dalam Nilai Kontrak ini dan hanya dapat dilaksanakan berdasarkan persetujuan Change Request tertulis."
+            },
+            {
+              "id": "p2-4",
+              "optional": false,
+              "enabled": true,
+              "text": "Pekerjaan di luar ruang lingkup yang dimintakan oleh Pihak Pertama wajib didahului dengan penawaran teknis, estimasi biaya tambahan, serta penyesuaian jadwal yang disetujui secara tertulis oleh kedua belah pihak sebelum Pihak Kedua berkewajiban mengerjakannya."
+            }
+          ]
+        },
+        {
+          "id": "pasal-3",
+          "articleNumber": 3,
+          "title": "HAK DAN KEWAJIBAN PIHAK PERTAMA",
+          "sectionGroup": "rights-obligations",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Kewajiban kerja sama & prestasi timbal balik pemberi kerja (Pasal 1338 KUHPerdata)",
+          "paragraphs": [
+            {
+              "id": "p3-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama berhak menerima hasil pengembangan Website sesuai spesifikasi teknis pada Pasal 2, melakukan masa percobaan uji coba (user test) maksimal 5 hari kalender, mengajukan revisi dalam masa percobaan tersebut, serta memperoleh garansi perbaikan selamanya atas error dari code/source code buatan Pihak Kedua."
+            },
+            {
+              "id": "p3-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama wajib menyediakan seluruh materi konten perusahaan yang dibutuhkan untuk pengisian Website, termasuk profil perusahaan, deskripsi layanan desain interior dan bangunan, foto/gambar portofolio proyek resolusi tinggi, logo resmi, panduan merek (brand guidelines), serta salinan teks dalam format digital yang siap digunakan."
+            },
+            {
+              "id": "p3-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama wajib menyediakan seluruh akses teknis yang diperlukan oleh Pihak Kedua tepat waktu, termasuk akses pengelolaan domain/DNS, akun layanan cloud atau hosting produksi, akun analitik/peta pihak ketiga, serta kredensial SMTP/email perusahaan."
+            },
+            {
+              "id": "p3-4",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama wajib menunjuk minimal 1 (satu) orang perwakilan proyek yang berwenang melakukan user test dan menyampaikan daftar revisi serta persetujuan tertulis selambat-lambatnya {{FEEDBACK_KLIEN_HARI}} (lima) hari kalender selama masa percobaan sejak akses uji coba diserahkan oleh Pihak Kedua."
+            },
+            {
+              "id": "p3-5",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama wajib melaksanakan seluruh kewajiban pembayaran tepat waktu sesuai Nilai Kontrak dan jadwal termin sebagaimana diatur dalam Pasal 5 Perjanjian ini."
+            },
+            {
+              "id": "p3-6",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama menjamin penuh bahwa seluruh aset merek, foto proyek interior/konstruksi, teks, video, dan materi lain yang diserahkan kepada Pihak Kedua merupakan milik sah atau telah berlisensi resmi, serta membebaskan Pihak Kedua dari segala tuntutan pihak ketiga atas pelanggaran Hak Kekayaan Intelektual yang bersumber dari materi yang disediakan Pihak Pertama."
+            }
+          ]
+        },
+        {
+          "id": "pasal-4",
+          "articleNumber": 4,
+          "title": "HAK DAN KEWAJIBAN PIHAK KEDUA",
+          "sectionGroup": "rights-obligations",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Standar profesionalisme pelaksana jasa teknologi digital (Pasal 1338 KUHPerdata)",
+          "paragraphs": [
+            {
+              "id": "p4-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Kedua berhak menerima pembayaran penuh sesuai jadwal termin pada Pasal 5, memperoleh kelengkapan materi dan akses teknis dari Pihak Pertama, serta memperoleh kepastian persetujuan tertulis pada setiap milestone proyek."
+            },
+            {
+              "id": "p4-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Kedua wajib melaksanakan Jasa Pengembangan secara profesional, cermat, dan sesuai standar praktik rekayasa perangkat lunak modern dengan memperhatikan keamanan sistem, kebersihan arsitektur kode, serta optimalisasi performa peramban desktop dan seluler."
+            },
+            {
+              "id": "p4-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Kedua wajib menyampaikan pembaruan status progres proyek secara berkala kepada Pihak Pertama dan segera menginformasikan apabila terdapat hambatan teknis atau ketergantungan materi yang berpotensi memengaruhi jadwal penyelesaian."
+            },
+            {
+              "id": "p4-4",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Kedua wajib menjaga kerahasiaan seluruh informasi bisnis, kredensial akses sistem, dan data pelanggan milik Pihak Pertama sesuai ketentuan Pasal 9 Perjanjian ini dan peraturan perlindungan data pribadi yang berlaku."
+            },
+            {
+              "id": "p4-5",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Kedua wajib melaksanakan pengujian fungsional, pengujian tampilan lintas ukuran layar, dan verifikasi keamanan dasar pada lingkungan staging sebelum menyerahkan Website kepada Pihak Pertama untuk tahap UAT."
+            },
+            {
+              "id": "p4-6",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Kedua wajib memperbaiki setiap error atau Bug yang bersumber dari code/source code buatan Pihak Kedua secara bertanggung jawab dan bergaransi selamanya sesuai Pasal 10 serta Lampiran I, dan melaksanakan serah terima Deliverables sesuai Pasal 7."
+            }
+          ]
+        },
+        {
+          "id": "pasal-5",
+          "articleNumber": 5,
+          "title": "NILAI KONTRAK DAN TATA CARA PEMBAYARAN",
+          "sectionGroup": "pricing-payment",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Ketentuan harga, pengakuan pembayaran uang muka terdahulu, dan kewajiban pajak",
+          "paragraphs": [
+            {
+              "id": "p5-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Total Nilai Kontrak beserta rincian komponen pembentuk biayanya atas pelaksanaan seluruh Jasa Pengembangan dalam ruang lingkup Perjanjian ini adalah sebagaimana tercantum pada tabel Rincian Biaya Pekerjaan dan tabel Ringkasan Nilai Kontrak & Pengakuan Pembayaran Sebelumnya di bawah pasal ini."
+            },
+            {
+              "id": "p5-2",
+              "optional": false,
+              "enabled": true,
+              "text": "PENGAKUAN PEMBAYARAN SEBELUMNYA (UANG MUKA / DOWN PAYMENT): Para Pihak dengan ini secara tegas mengakui dan menyatakan bahwa apabila Pihak Pertama telah menyetorkan pembayaran Uang Muka (DP) kepada Pihak Kedua sebelum tanggal penandatanganan Perjanjian ini, maka seluruh jumlah pembayaran DP tersebut diakui sah sebagai bagian dari Total Nilai Kontrak dan bukan merupakan kewajiban pembayaran baru ataupun pembayaran terpisah di luar Perjanjian ini."
+            },
+            {
+              "id": "p5-3",
+              "optional": false,
+              "enabled": true,
+              "text": "PERHITUNGAN SISA PEMBAYARAN: Sisa kewajiban pembayaran Pihak Pertama dihitung secara matematis dengan rumus: Sisa Pembayaran = Total Nilai Kontrak dikurangi Total Pembayaran yang Telah Diterima, yang wajib dibayarkan sesuai tahapan termin pada tabel Jadwal Termin Pembayaran."
+            },
+            {
+              "id": "p5-4",
+              "optional": false,
+              "enabled": true,
+              "text": "Setiap pembayaran termin diajukan melalui dokumen penawaran resmi (quotation) dari Pihak Kedua dengan skema 2 (dua) tahap pembayaran: (a) Pembayaran I — Uang Muka (Down Payment) sebesar Rp 700.000 (Tujuh Ratus Ribu Rupiah); dan (b) Pembayaran II — Pelunasan sisa nilai kontrak termasuk PPN 11% sebesar Rp 1.155.000 (Satu Juta Seratus Lima Puluh Lima Ribu Rupiah) setelah tahap uji coba (tester / user test) selesai dan wajib dilunasi sebelum Website di-deploy atau dipublikasikan secara lengkap ke internet. Seluruh pembayaran wajib dilunasi oleh Pihak Pertama selambat-lambatnya pada tanggal jatuh tempo, yaitu maksimal 7 (tujuh) hari kalender terhitung sejak tanggal penawaran (quotation) diterbitkan, melalui transfer bank ke rekening resmi Pihak Kedua pada Bank SeaBank Nomor Rekening 901387277710 atas nama Mela Melati Aprilia (Finance AlinLabs Indonesia). Pembayaran dianggap sah setelah dana diterima efektif pada rekening tersebut."
+            },
+            {
+              "id": "p5-5",
+              "optional": false,
+              "enabled": true,
+              "text": "KETENTUAN PERPAJAKAN (PPN 11% KHUSUS INFRASTRUKTUR): Pajak Pertambahan Nilai (PPN) sebesar 11% (Rp 55.000) hanya dikenakan atas komponen Domain (shansusdzar.com), Hosting (Alinlabs Server), serta Database & Cloud 10GB (Alinlabs Cloud) dengan total dasar pengenaan Rp 500.000, sedangkan komponen jasa pembuatan halaman website, halaman admin keuangan, halaman pengaturan, dan halaman hak akses tidak dikenakan PPN. Apabila terdapat kewajiban pemotongan pajak penghasilan sesuai peraturan perpajakan Indonesia oleh Pihak Pertama, bukti potong wajib diserahkan kepada Pihak Kedua selambat-lambatnya pada bulan berikutnya."
+            },
+            {
+              "id": "p5-6",
+              "optional": false,
+              "enabled": true,
+              "text": "PEMBLOKIRAN SEMENTARA SITUS AKIBAT KETERLAMBATAN PEMBAYARAN: Apabila Pihak Pertama tidak melakukan pembayaran sesuai tanggal jatuh tempo, yaitu melewati batas maksimal 7 (tujuh) hari kalender sejak tanggal penawaran (quotation) diterbitkan, maka AlinLabs Indonesia (Pihak Kedua) berhak melakukan pemblokiran sementara situs atau menonaktifkan akses Website sehingga Website tidak akan bisa terbuka maupun diakses hingga seluruh kewajiban pembayaran yang jatuh tempo dilunasi secara penuh, serta menunda pengerjaan tahap berikutnya tanpa dianggap sebagai wanprestasi dari pihak Pihak Kedua."
+            },
+            {
+              "id": "p5-7",
+              "optional": false,
+              "enabled": true,
+              "text": "MASA AKTIF DAN REAKTIVASI DOMAIN TAHUNAN (1 TAHUN): Pendaftaran domain shansusdzar.com dalam Nilai Kontrak berlaku untuk masa aktif 1 (satu) tahun sejak aktivasi awal. Apabila masa aktif 1 (satu) tahun telah berakhir, domain secara otomatis tidak aktif dan Website tidak dapat diakses hingga domain direaktifkan kembali (perpanjangan). Nominal biaya reaktivasi untuk periode tahun berikutnya belum ditetapkan secara pasti saat ini, namun berada pada kisaran harga yang sama atau tidak jauh berbeda dari biaya periode awal dengan menyesuaikan perubahan tarif resmi dari provider domain maupun fluktuasi kurs mata uang yang berlaku saat perpanjangan."
+            },
+            {
+              "id": "p5-8",
+              "optional": false,
+              "enabled": true,
+              "text": "PENGELOLAAN BACKUP SERVER & CLOUD DAN LAYANAN OPSIONAL BACKUP & REFRESH: Dalam lingkup Nilai Kontrak ini, pengelolaan backup rutin atas server maupun Alinlabs Cloud tidak termasuk sebagai layanan terkelola otomatis dan sepenuhnya diserahkan kepada tanggung jawab operasional Pihak Pertama. Apabila pengelolaan backup tersebut diserahkan untuk dikerjakan oleh Pihak Kedua guna pengoptimalisasian server kembali serta penyusunan backup yang rapi, maka Pihak Pertama dikenakan biaya tambahan di luar Nilai Kontrak berkisar Rp 150.000 (Seratus Lima Puluh Ribu Rupiah) hingga Rp 250.000 (Dua Ratus Lima Puluh Ribu Rupiah) per project backup & refresh sesuai volume data serta tingkat optimalisasi server yang dibutuhkan."
+            }
+          ]
+        },
+        {
+          "id": "pasal-6",
+          "articleNumber": 6,
+          "title": "JANGKA WAKTU DAN PELAKSANAAN PROYEK",
+          "sectionGroup": "project-info",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Pengaturan jadwal prestasi & perpanjangan waktu akibat ketergantungan klien",
+          "paragraphs": [
+            {
+              "id": "p6-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Jangka waktu pelaksanaan proyek terdiri atas: (a) Pengerjaan Website oleh Pihak Kedua paling lama 3 (tiga) hari kalender sejak tanggal terbit kontrak; (b) Penyerahan kepada Pihak Pertama untuk uji coba (user test) dan masa percobaan pengajuan revisi selama maksimal {{FEEDBACK_KLIEN_HARI}} (lima) hari kalender; dan (c) Penyelesaian perbaikan revisi sekaligus peluncuran (deploy/publish) Website ke internet dalam waktu 3 (tiga) hari kalender, dengan total estimasi siklus pelaksanaan 11 (sebelas) hari kalender sebagaimana dirinci pada tabel Jadwal Induk dan Tahapan Milestone di bawah ini."
+            },
+            {
+              "id": "p6-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Para Pihak menyadari bahwa ketepatan penyelesaian setiap tahap bergantung pada ketepatan waktu Pihak Pertama dalam menyediakan aset konten, akses infrastruktur teknis, serta menyampaikan tanggapan atau persetujuan tertulis."
+            },
+            {
+              "id": "p6-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Apabila Pihak Pertama terlambat menyerahkan materi konten, kredensial akses, atau daftar revisi hasil masa percobaan melebihi batas {{FEEDBACK_KLIEN_HARI}} (lima) hari kalender masa percobaan user test, maka waktu peluncuran (deploy/publish) secara wajar menyesuaikan jumlah hari keterlambatan tersebut sesuai ketersediaan tim teknis Pihak Kedua."
+            },
+            {
+              "id": "p6-4",
+              "optional": false,
+              "enabled": true,
+              "text": "Apabila terdapat permintaan Perubahan Pekerjaan (Change Request) yang disetujui sesuai Pasal 11, maka jadwal pelaksanaan proyek diperbarui sesuai estimasi tambahan waktu yang disepakati pada dokumen Change Request terkait."
+            }
+          ]
+        },
+        {
+          "id": "pasal-7",
+          "articleNumber": 7,
+          "title": "PENYERAHAN HASIL PEKERJAAN DAN UJI TERIMA (UAT)",
+          "sectionGroup": "scope-of-work",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Protokol verifikasi teknis (UAT) dan bukti pemenuhan prestasi (BAST)",
+          "paragraphs": [
+            {
+              "id": "p7-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Setelah pengerjaan awal selesai dalam maksimal 3 (tiga) hari kalender sejak tanggal terbit kontrak, Pihak Kedua menyerahkan akses uji coba pengguna (user test / staging) kepada Pihak Pertama untuk melakukan pemeriksaan kesesuaian Website terhadap spesifikasi Pasal 2."
+            },
+            {
+              "id": "p7-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak Pertama berhak melaksanakan masa percobaan (tester / user test) dan mengajukan daftar revisi secara terkonsolidasi selama maksimal {{FEEDBACK_KLIEN_HARI}} (lima) hari kalender sejak akses uji coba diserahkan. Selanjutnya Pihak Kedua menyelesaikan perbaikan revisi dan, setelah Pihak Pertama melunasi seluruh sisa kewajiban pembayaran (Pembayaran II sebesar Rp 1.155.000 termasuk PPN 11%) setelah tester dan sebelum deploy, Pihak Kedua melaksanakan peluncuran (deploy) dan publikasi lengkap Website ke internet dalam jangka waktu 3 (tiga) hari kalender. Apabila dalam masa percobaan 5 hari tersebut tidak ada catatan revisi tertulis dari Pihak Pertama, Website dinyatakan siap untuk di-deploy dan dipublikasikan lengkap setelah pelunasan sisa kewajiban pembayaran tersebut."
+            },
+            {
+              "id": "p7-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Setelah temuan revisi masa percobaan (tester) diselesaikan, kewajiban pelunasan sisa nilai kontrak termasuk PPN (Pembayaran II) telah dipenuhi oleh Pihak Pertama sebelum deploy, dan Website diluncurkan serta dipublikasikan lengkap ke domain produksi, Pihak Kedua menyerahkan Deliverables final berupa: (a) Website live pada server produksi; (b) file desain final yang digunakan dalam proyek; (c) struktur basis data dan konten awal; (d) akun administrator utama (super admin / owner beserta akses Halaman Pengaturan dan Halaman Hak Akses); (e) akses pengelolaan domain/hosting (sepanjang berada dalam pengelolaan Pihak Kedua); (f) dokumentasi panduan penggunaan CMS dan konfigurasi teknis; serta (g) {{SOURCE_CODE_KLAUSUL}}."
+            },
+            {
+              "id": "p7-4",
+              "optional": false,
+              "enabled": true,
+              "text": "Penyerahan Deliverables final didokumentasikan melalui Berita Acara Serah Terima (BAST) yang ditandatangani oleh perwakilan berwenang Para Pihak, serta menandai berlakunya garansi selamanya atas error code/source code sesuai ketentuan Pasal 10."
+            }
+          ]
+        },
+        {
+          "id": "pasal-8",
+          "articleNumber": 8,
+          "title": "HAK KEKAYAAN INTELEKTUAL",
+          "sectionGroup": "intellectual-property",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "UU No. 28 Tahun 2014 tentang Hak Cipta — Kepemilikan eksklusif source code oleh AlinLabs Indonesia & lisensi hak guna operasional",
+          "paragraphs": [
+            {
+              "id": "p8-1",
+              "optional": false,
+              "enabled": true,
+              "text": "KEPEMILIKAN EKSKLUSIF SOURCE CODE OLEH ALINLABS INDONESIA: Berdasarkan Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta, seluruh kode sumber (source code), program komputer, struktur arsitektur sistem, skrip frontend dan backend, komponen antarmuka, kerangka kerja internal (internal boilerplate), modul utilitas, serta rancangan teknis Website ini tetap merupakan Hak Kekayaan Intelektual yang dimiliki secara eksklusif dan penuh oleh Pihak Kedua (AlinLabs Indonesia). Perjanjian ini tidak mengalihkan kepemilikan atau hak cipta atas source code kepada Pihak Pertama."
+            },
+            {
+              "id": "p8-2",
+              "optional": false,
+              "enabled": true,
+              "text": "LISENSI HAK GUNA & LARANGAN MENGEDIT, MENGUBAH, ATAU MENJUAL SOURCE CODE: Dengan dipenuhinya kewajiban pembayaran Nilai Kontrak oleh Pihak Pertama, Pihak Kedua memberikan izin atau lisensi penggunaan operasional non-eksklusif kepada Pihak Pertama untuk memanfaatkan Website bagi kegiatan usaha Shansus Dzar Indonesia. Pihak Pertama dilarang keras untuk mengedit, mengubah, memodifikasi, menyalin sebagian atau seluruhnya, melakukan rekayasa balik (reverse engineering), mendistribusikan ulang, menyewakan, memperjualbelikan, atau memindahtangankan dalam bentuk apa pun seluruh atau sebagian source code dan komponen program Website ini kepada pihak lain tanpa persetujuan tertulis resmi dari AlinLabs Indonesia."
+            },
+            {
+              "id": "p8-3",
+              "optional": false,
+              "enabled": true,
+              "text": "PENGELOLAAN KONTEN & DATA MELALUI PANEL ADMIN: Pihak Pertama berhak penuh mengelola dan memperbarui data konten operasional, preferensi akun, otorisasi admin, serta pembukuan (artikel pada Halaman Info, item Portofolio, data Katalog/profil, data transaksi pada Halaman Admin Keuangan, bahasa/tema/kredensial pada Halaman Pengaturan, serta invite/persetujuan/hak akses admin oleh Super Admin/Owner pada Halaman Hak Akses) melalui Panel Admin / CMS yang telah disediakan, sedangkan segala bentuk perbaikan galat (error/bug) maupun pembaruan kode sumber (update source) hanya boleh dikerjakan oleh Pihak Kedua sesuai Pasal 10 dan Pasal 11."
+            },
+            {
+              "id": "p8-4",
+              "optional": false,
+              "enabled": true,
+              "text": "FRAMEWORK, OPEN-SOURCE LIBRARY & LISENSI PIHAK KETIGA: Dalam pengembangannya, Website turut memanfaatkan framework dan pustaka sumber terbuka (open-source software seperti lisensi MIT, Apache 2.0, atau BSD) serta layanan/API pihak ketiga yang masing-masing tetap tunduk pada ketentuan lisensi pemegang hak aslinya."
+            },
+            {
+              "id": "p8-5",
+              "optional": false,
+              "enabled": true,
+              "text": "KEPEMILIKAN KONTEN & MEREK PIHAK PERTAMA: Seluruh materi konten bisnis, merek dagang, nama dagang \"Shansus Dzar Indonesia\", logo, foto/video proyek desain interior, dan data pelanggan yang disediakan Pihak Pertama tetap sepenuhnya menjadi milik sah Pihak Pertama, dan Pihak Kedua hanya memanfaatkannya sebatas untuk kebutuhan pengembangan serta operasional Website."
+            },
+            {
+              "id": "p8-6",
+              "optional": true,
+              "enabled": true,
+              "text": "PENGGUNAAN PORTOFOLIO: {{PORTOFOLIO_KLAUSUL}}"
+            }
+          ]
+        },
+        {
+          "id": "pasal-9",
+          "articleNumber": 9,
+          "title": "KERAHASIAAN DAN PERLINDUNGAN DATA PRIBADI",
+          "sectionGroup": "confidentiality-pdp",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP) & UU Rahasia Dagang",
+          "paragraphs": [
+            {
+              "id": "p9-1",
+              "optional": false,
+              "enabled": true,
+              "text": "KOMITMEN KEPEMILIKAN DAN KERAHASIAAN PENUH DATA MILIK SHANSUS DZAR INDONESIA: Para Pihak dengan ini menegaskan dan berkomitmen penuh bahwa seluruh kerahasiaan data usaha, data keuangan pada Halaman Admin Keuangan, strategi bisnis, struktur harga, data proyek interior dan klien Pihak Pertama, basis data pelanggan dan log pesanan, serta seluruh Informasi Rahasia yang dikelola maupun tersimpan di dalam Website sepenuhnya merupakan hak milik mutlak dan kerahasiaan eksklusif Shansus Dzar Indonesia (Pihak Pertama). AlinLabs Indonesia (Pihak Kedua) berkomitmen penuh menjaga kerahasiaan seluruh data tersebut serta dilarang keras mengakses di luar keperluan dukungan teknis resmi, menyalin untuk kepentingan pihak lain, membocorkan, memperjualbelikan, atau memanfaatkannya kepada pihak ketiga mana pun tanpa persetujuan tertulis terlebih dahulu dari Shansus Dzar Indonesia."
+            },
+            {
+              "id": "p9-2",
+              "optional": false,
+              "enabled": true,
+              "text": "KEAMANAN SISTEM & PEMBATASAN AKSES: Pihak Kedua hanya diperkenankan mengakses dan menggunakan kredensial serta data Pihak Pertama sebatas yang diperlukan untuk pelaksanaan pengembangan, pengujian, dan dukungan teknis, dengan menerapkan pengendalian akses berbasis peran, enkripsi jalur komunikasi (TLS/HTTPS), serta tidak menyimpan kredensial sensitif secara tidak aman."
+            },
+            {
+              "id": "p9-3",
+              "optional": true,
+              "enabled": true,
+              "text": "PERAN PENGENDALI DAN PROSESOR DATA PRIBADI (UU NO. 27 TAHUN 2022): Sepanjang Website mengumpulkan, menyimpan, atau memproses Data Pribadi (seperti nama, nomor telepon, email, atau data konsultasi pengunjung dan pelanggan), Pihak Pertama berkedudukan sebagai Pengendali Data Pribadi yang menentukan tujuan dan kendali pemrosesan serta wajib memenuhi dasar pemrosesan yang sah dan kebijakan privasi pada Website. Pihak Kedua berkedudukan sebagai Prosesor Data Pribadi sepanjang melakukan pemrosesan teknis atas nama dan berdasarkan instruksi terdokumentasi Pihak Pertama sesuai UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi."
+            },
+            {
+              "id": "p9-4",
+              "optional": false,
+              "enabled": true,
+              "text": "PELAPORAN INSIDEN KEAMANAN & KEGAGALAN PELINDUNGAN DATA: Apabila terjadi dugaan akses tidak sah, kebocoran data, atau insiden keamanan siber yang memengaruhi data dalam lingkup sistem yang dikelola atau diakses Pihak Kedua, Pihak Kedua wajib segera mengambil langkah mitigasi darurat dan menyampaikan pemberitahuan tertulis kepada Pihak Pertama dalam waktu yang memungkinkan Pihak Pertama memenuhi kewajiban notifikasi paling lambat 3 x 24 (tiga kali dua puluh empat) jam sebagaimana diatur dalam Pasal 46 Undang-Undang Nomor 27 Tahun 2022."
+            },
+            {
+              "id": "p9-5",
+              "optional": false,
+              "enabled": true,
+              "text": "PENGEMBALIAN & PENGHAPUSAN DATA PASCA PERJANJIAN: Setelah proyek diserahterimakan atau Perjanjian berakhir, Pihak Kedua wajib mengembalikan atau menghapus secara aman seluruh salinan data produksi, cadangan sementara di lingkungan staging, serta kredensial akses milik Pihak Pertama atas permintaan tertulis Pihak Pertama (dan Pihak Pertama wajib segera mengganti kata sandi administratif utama). Kewajiban menjaga kerahasiaan tetap mengikat Para Pihak selama 3 (tiga) tahun setelah berakhirnya Perjanjian ini."
+            }
+          ]
+        },
+        {
+          "id": "pasal-10",
+          "articleNumber": 10,
+          "title": "GARANSI SELAMANYA, PENANGANAN ERROR & BIAYA UPDATE",
+          "sectionGroup": "warranty-maintenance",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Pemisahan tegas garansi error kode sumber selamanya, update kebijakan eksternal, dan perubahan fitur pasca deploy",
+          "paragraphs": [
+            {
+              "id": "p10-1",
+              "optional": false,
+              "enabled": true,
+              "text": "GARANSI SELAMANYA ATAS ERROR CODE / SOURCE: Apabila terjadi error, Bug, atau kendala fungsional yang bersumber dari code atau source code buatan Pihak Kedua (kesalahan dari pihak AlinLabs Indonesia), seluruh perbaikan tersebut sepenuhnya menjadi tanggung jawab Pihak Kedua dan memperoleh garansi selamanya (seumur hidup) tanpa biaya tambahan."
+            },
+            {
+              "id": "p10-2",
+              "optional": false,
+              "enabled": true,
+              "text": "CAKUPAN & SLA PENANGANAN ERROR GARANSI: Atas setiap laporan error dari Pihak Pertama yang disebabkan oleh code/source code buatan Pihak Kedua, Pihak Kedua wajib memberikan respon awal selambat-lambatnya dalam {{RESPON_BUG_JAM}} jam pada Hari Kerja dan menuntaskan perbaikan secara gratis sesuai matriks tingkat keparahan (Severity P1, P2, dan P3) pada Lampiran I."
+            },
+            {
+              "id": "p10-3",
+              "optional": false,
+              "enabled": true,
+              "text": "PENGECUALIAN — UPDATE SOURCE AKIBAT KEBIJAKAN EKSTERNAL: Dikecualikan dari garansi gratis apabila diperlukan pembaruan kode (update source) akibat perubahan kebijakan layanan pihak ketiga di luar kesalahan kode Pihak Kedua (antara lain pembaruan kebijakan Google, perubahan API eksternal, atau pembaruan ekosistem pihak ketiga). Atas kebutuhan update source tersebut akan dikenakan biaya pembaruan berkisar Rp 50.000 (Lima Puluh Ribu Rupiah) hingga Rp 150.000 (Seratus Lima Puluh Ribu Rupiah) sesuai lingkup penyesuaian teknis. Garansi gratis juga tidak mencakup gangguan akibat modifikasi kode secara sepihak oleh pihak lain tanpa persetujuan tertulis Pihak Kedua."
+            },
+            {
+              "id": "p10-4",
+              "optional": false,
+              "enabled": true,
+              "text": "PERGANTIAN FITUR ATAU PEROMBAKAN SETELAH DEPLOY (PUBLISH): Apabila setelah Website di-deploy dan di-publish ke internet Pihak Pertama meminta pergantian fitur hingga perombakan tampilan maupun alur sistem — baik perubahan minor maupun mayor di luar spesifikasi awal Pasal 2 — pekerjaan tersebut akan dikenakan biaya pembaruan (charge update) berkisar mulai dari Rp 100.000 (Seratus Ribu Rupiah) hingga seterusnya tergantung tingkat kompleksitas yang diminta dan disepakati melalui mekanisme Change Request (Pasal 11)."
+            },
+            {
+              "id": "p10-5",
+              "optional": false,
+              "enabled": true,
+              "text": "PENGELOLAAN BACKUP SERVER & CLOUD DAN LAYANAN OPSIONAL BACKUP & REFRESH: Layanan garansi gratis Pasal 10 ayat (1) tidak mencakup pengelolaan backup rutin server dan Alinlabs Cloud karena tanggung jawab backup diserahkan kepada Pihak Pertama. Apabila Pihak Pertama menyerahkan pengerjaan backup yang rapi serta refresh guna pengoptimalisasian server kembali kepada Pihak Kedua, maka dikenakan biaya tambahan sekitar Rp 150.000 (Seratus Lima Puluh Ribu Rupiah) hingga Rp 250.000 (Dua Ratus Lima Puluh Ribu Rupiah) per project backup & refresh sesuai kesepakatan."
+            }
+          ]
+        },
+        {
+          "id": "pasal-11",
+          "articleNumber": 11,
+          "title": "PERUBAHAN PEKERJAAN & BIAYA UPDATE (CHANGE REQUEST)",
+          "sectionGroup": "warranty-maintenance",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Kesepakatan perubahan lingkup objek kontrak dan tarif pembaruan pasca deploy (Pasal 1338 KUHPerdata)",
+          "paragraphs": [
+            {
+              "id": "p11-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Apabila selama berjalannya proyek maupun setelah deploy (publish) ke internet Pihak Pertama menghendaki penambahan, pergantian fitur, hingga perombakan (baik minor maupun mayor) di luar ruang lingkup Pasal 2, Pihak Pertama wajib menyampaikan permohonan Perubahan Pekerjaan (Change Request) secara tertulis kepada Pihak Kedua."
+            },
+            {
+              "id": "p11-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Selambat-lambatnya 2 (dua) Hari Kerja setelah menerima permohonan Change Request, Pihak Kedua menyampaikan estimasi teknis dan rincian charge biaya update dengan acuan: (a) Rp 50.000 - Rp 150.000 untuk update source penyesuaian kebijakan pihak ketiga/Google; atau (b) mulai dari Rp 100.000 hingga seterusnya untuk pergantian fitur hingga perombakan minor/mayor pasca deploy tergantung kompleksitas yang diminta, beserta estimasi waktu pengerjaan."
+            },
+            {
+              "id": "p11-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Perubahan Pekerjaan atau update berbayar tersebut hanya berlaku mengikat dan dikerjakan oleh Pihak Kedua setelah rincian biaya serta jadwalnya disetujui secara tertulis atau melalui korespondensi resmi oleh perwakilan berwenang Para Pihak."
+            }
+          ]
+        },
+        {
+          "id": "pasal-12",
+          "articleNumber": 12,
+          "title": "WANPRESTASI, SANKSI KECURANGAN DAN TANGGUNG JAWAB",
+          "sectionGroup": "termination",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Pasal 1238, 1243, 1266, 1267, 1304-1312, 1338, 1365 KUHPerdata; UU ITE; UU Hak Cipta; & KUHP",
+          "paragraphs": [
+            {
+              "id": "p12-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Suatu Pihak dinyatakan berada dalam keadaan wanprestasi apabila tidak memenuhi, terlambat memenuhi, atau melanggar kewajiban material yang diatur dalam Perjanjian ini, termasuk keterlambatan pembayaran oleh Pihak Pertama melewati batas jatuh tempo maksimal 7 (tujuh) hari kalender sejak penawaran (quotation) terbit (yang juga memberikan hak pemblokiran sementara situs sesuai Pasal 5 ayat (6)), pelanggaran larangan modifikasi atau penjualan source code pada Pasal 8, maupun penghentian pengerjaan oleh Pihak Kedua tanpa dasar hukum atau persetujuan tertulis."
+            },
+            {
+              "id": "p12-2",
+              "optional": false,
+              "enabled": true,
+              "text": "PEMBERITAHUAN PELANGGARAN (SOMASI): Merujuk pada Pasal 1238 KUHPerdata, Pihak yang dirugikan wajib terlebih dahulu menyampaikan pemberitahuan pelanggaran tertulis (notice of breach / somasi) kepada Pihak yang lalai dengan memberikan kesempatan perbaikan (cure period) selama 14 (empat belas) hari kalender sejak tanggal pemberitahuan diterima."
+            },
+            {
+              "id": "p12-3",
+              "optional": false,
+              "enabled": true,
+              "text": "AKIBAT WANPRESTASI & GANTI RUGI: Apabila hingga berakhirnya masa kesempatan perbaikan pelanggaran tersebut tetap tidak dipulihkan, maka sesuai Pasal 1266 dan Pasal 1267 KUHPerdata, Pihak yang dirugikan berhak menuntut pemenuhan kewajiban atau mengakhiri Perjanjian disertai tuntutan penggantian biaya dan kerugian langsung yang nyata dan dapat dibuktikan berdasarkan Pasal 1243 KUHPerdata."
+            },
+            {
+              "id": "p12-4",
+              "optional": false,
+              "enabled": true,
+              "text": "PEMBATASAN TANGGUNG JAWAB YANG SEIMBANG: Sepanjang tidak bertentangan dengan peraturan perundang-undangan yang bersifat memaksa, total tanggung jawab ganti rugi agregat Pihak Kedua atas segala klaim yang timbul dari pelaksanaan Perjanjian ini dibatasi maksimal sebesar jumlah pembayaran Nilai Kontrak yang secara nyata telah diterima oleh Pihak Kedua dari Pihak Pertama, dan tidak mencakup kerugian tidak langsung, kehilangan pendapatan, atau kehilangan peluang usaha, kecuali dalam hal terbukti adanya kesengajaan (dolus) atau kelalaian berat (culpa lata)."
+            },
+            {
+              "id": "p12-5",
+              "optional": false,
+              "enabled": true,
+              "text": "SANKSI DAN DENDA ATAS KECURANGAN PIHAK PERTAMA: Apabila Pihak Pertama terbukti melakukan kecurangan dengan itikad buruk — termasuk pemalsuan bukti transfer atau dokumen pembayaran, manipulasi/rekayasa data maupun laporan sistem untuk merugikan Pihak Kedua, penyalahgunaan Website atau Halaman Admin Keuangan untuk tindakan melawan hukum, maupun penyalinan, pembajakan, modifikasi, pengalihan, atau penjualan source code milik Pihak Kedua secara tidak sah — maka terhadap Pihak Pertama dikenakan sanksi berupa: (a) penonaktifan seketika Website serta pencabutan hak guna operasional dan gugurnya seluruh garansi selamanya tanpa kewajiban pengembalian dana (non-refundable); (b) pengenaan denda kontraktual sebesar 20% (dua puluh persen) dari nilai kewajiban yang dicurangi/tertunggak untuk kecurangan administrasi atau pembayaran, dan denda sekurang-kurangnya 2 (dua) kali Nilai Kontrak (Rp 3.710.000) atau sesuai nilai kerugian nyata yang lebih besar dan dapat dibuktikan melalui audit untuk kecurangan teknis, manipulasi sistem, maupun pelanggaran source code; serta (c) kewajiban Pihak Pertama untuk menanggung penuh seluruh tuntutan hukum pihak ketiga dan membebaskan Pihak Kedua dari segala akibat hukum yang timbul."
+            },
+            {
+              "id": "p12-6",
+              "optional": false,
+              "enabled": true,
+              "text": "PERTIMBANGAN HUKUM ATAS SANKSI KECURANGAN: Pengenaan sanksi, pencabutan lisensi guna, denda kontraktual, dan ganti rugi sebagaimana dimaksud pada ayat (5) dilaksanakan dengan berlandaskan pada pertimbangan hukum Indonesia yang berlaku, yaitu: (a) Asas itikad baik (good faith) dan kekuatan mengikat perjanjian berdasarkan Pasal 1338 ayat (1) dan ayat (3) KUHPerdata; (b) Ketentuan ancaman denda kontraktual (klausula hukuman/penalty) serta penggantian biaya, kerugian, dan bunga akibat wanprestasi berdasarkan Pasal 1243 serta Pasal 1304 sampai dengan Pasal 1312 KUHPerdata; (c) Pertanggungjawaban Perbuatan Melawan Hukum berdasarkan Pasal 1365 KUHPerdata apabila kecurangan melanggar hak subjektif atau menimbulkan kerugian di luar perikatan pokok; dan (d) Hak Pihak Kedua untuk menempuh pelaporan pidana maupun gugatan hak kekayaan intelektual berdasarkan ketentuan Penipuan/Pemalsuan dalam KUHP (Pasal 378 KUHP jo. UU No. 1 Tahun 2023), UU No. 11 Tahun 2008 jo. UU No. 1 Tahun 2024 tentang Informasi dan Transaksi Elektronik (ITE), serta UU No. 28 Tahun 2014 tentang Hak Cipta, dengan tetap menjunjung tinggi prinsip pembuktian yang sah (rekaman audit sistem/bukti tertulis) serta asas proporsionalitas keadilan."
+            }
+          ]
+        },
+        {
+          "id": "pasal-13",
+          "articleNumber": 13,
+          "title": "KEADAAN KAHAR (FORCE MAJEURE)",
+          "sectionGroup": "termination",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Pasal 1244 dan Pasal 1245 KUHPerdata mengenai peristiwa di luar kesalahan debitur",
+          "paragraphs": [
+            {
+              "id": "p13-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Keadaan Kahar adalah setiap peristiwa di luar kekuasaan dan kendali wajar Para Pihak yang terjadi setelah Perjanjian ditandatangani dan secara langsung menghalangi pelaksanaan kewajiban Perjanjian ini, antara lain bencana alam, gempa bumi, banjir besar, kebakaran, epidemi/pandemi, perang, kerusuhan massa, gangguan jaringan telekomunikasi atau pusat data berskala nasional, serangan siber masif berskala infrastruktur, atau peraturan/kebijakan pemerintah yang melarang pelaksanaan objek Perjanjian."
+            },
+            {
+              "id": "p13-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Pihak yang mengalami Keadaan Kahar wajib menyampaikan pemberitahuan tertulis kepada Pihak lainnya selambat-lambatnya {{FORCE_MAJEURE_HARI}} hari kalender sejak mengetahui terjadinya Keadaan Kahar disertai bukti yang wajar serta melakukan langkah mitigasi untuk meminimalkan dampaknya terhadap proyek."
+            },
+            {
+              "id": "p13-3",
+              "optional": false,
+              "enabled": true,
+              "text": "Keterlambatan pelaksanaan akibat Keadaan Kahar tidak dianggap sebagai wanprestasi. Apabila Keadaan Kahar berlangsung terus-menerus melebihi 30 (tiga puluh) hari kalender, Para Pihak sepakat bermusyawarah untuk menyepakati penjadwalan ulang atau mengakhiri Perjanjian secara adil dengan penyelesaian pembayaran secara proporsional atas pekerjaan yang telah diselesaikan."
+            }
+          ]
+        },
+        {
+          "id": "pasal-14",
+          "articleNumber": 14,
+          "title": "PENGAKHIRAN PERJANJIAN",
+          "sectionGroup": "termination",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Mekanisme pengakhiran, perhitungan proporsional, pengembalian dana & catatan Pasal 1266 KUHPerdata",
+          "paragraphs": [
+            {
+              "id": "p14-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Perjanjian ini berakhir apabila: (a) seluruh kewajiban Para Pihak telah selesai dilaksanakan dan BAST telah ditandatangani; (b) terdapat kesepakatan tertulis bersama antara Para Pihak untuk mengakhiri Perjanjian; atau (c) diakhiri oleh salah satu Pihak karena wanprestasi material yang tidak diperbaiki setelah masa teguran Pasal 12 berakhir."
+            },
+            {
+              "id": "p14-2",
+              "optional": false,
+              "enabled": true,
+              "text": "PEMBATALAN PEKERJAAN SEPIHAK: Dalam hal Pihak Pertama membatalkan proyek atau mengakhiri Perjanjian sebelum selesai tanpa adanya wanprestasi dari Pihak Kedua dengan pemberitahuan tertulis minimal {{TERMINASI_HARI}} hari kalender sebelumnya, Para Pihak wajib melakukan audit progres pekerjaan yang telah diselesaikan secara sah hingga tanggal efektif pengakhiran."
+            },
+            {
+              "id": "p14-3",
+              "optional": false,
+              "enabled": true,
+              "text": "PERHITUNGAN PEMBAYARAN & PENGEMBALIAN DANA (REFUND): Apabila total pembayaran yang telah diterima Pihak Kedua (termasuk DP yang dibayarkan sebelum Perjanjian) lebih besar daripada nilai progres pekerjaan yang telah dikerjakan secara proporsional ditambah biaya komitmen lisensi/infrastruktur pihak ketiga yang tidak dapat dibatalkan, Pihak Kedua wajib mengembalikan selisih lebihnya kepada Pihak Pertama selambat-lambatnya 14 (empat belas) Hari Kerja. Sebaliknya, apabila nilai progres pekerjaan lebih besar daripada total dana yang telah diterima, Pihak Pertama wajib melunasi selisihnya terlebih dahulu."
+            },
+            {
+              "id": "p14-4",
+              "optional": false,
+              "enabled": true,
+              "text": "PENYERAHAN DATA MILIK KLIEN & PENGHAPUSAN DATA: Sepanjang kewajiban pembayaran proporsional hingga tahap pengakhiran telah diselesaikan, Pihak Kedua wajib menyerahkan seluruh materi konten dan data bisnis milik Pihak Pertama (tidak termasuk source code dan komponen program yang tetap menjadi Hak Kekayaan Intelektual milik Pihak Kedua sesuai Pasal 8) serta melaksanakan pengembalian atau penghapusan data rahasia sesuai Pasal 9 ayat (5)."
+            },
+            {
+              "id": "p14-5",
+              "optional": true,
+              "enabled": true,
+              "text": "Para Pihak sepakat mengesampingkan ketentuan Pasal 1266 Kitab Undang-Undang Hukum Perdata sepanjang mengenai persyaratan putusan hakim untuk mengakhiri Perjanjian ini secara sepihak berdasarkan syarat batal yang diatur dalam Perjanjian."
+            }
+          ]
+        },
+        {
+          "id": "pasal-15",
+          "articleNumber": 15,
+          "title": "PENYELESAIAN PERSELISIHAN",
+          "sectionGroup": "dispute-resolution",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "Musyawarah mufakat dan mekanisme penyelesaian sengketa lanjutan",
+          "paragraphs": [
+            {
+              "id": "p15-1",
+              "optional": false,
+              "enabled": true,
+              "text": "Apabila timbul perbedaan penafsiran atau perselisihan sehubungan dengan pelaksanaan Perjanjian ini, Para Pihak wajib mengutamakan penyelesaian secara damai melalui musyawarah untuk mufakat dalam jangka waktu paling lama 30 (tiga puluh) hari kalender sejak tanggal pemberitahuan tertulis mengenai perselisihan diterima."
+            },
+            {
+              "id": "p15-2",
+              "optional": false,
+              "enabled": true,
+              "text": "Apabila musyawarah untuk mufakat tidak menghasilkan kesepakatan dalam jangka waktu tersebut, Para Pihak sepakat menyelesaikan sengketa melalui mediasi terlebih dahulu atau langsung melalui {{FORUM_SENGKETA}}."
+            }
+          ]
+        },
+        {
+          "id": "pasal-16",
+          "articleNumber": 16,
+          "title": "KETENTUAN PENUTUP",
+          "sectionGroup": "dispute-resolution",
+          "enabled": true,
+          "optional": false,
+          "legalBasisHint": "UU No. 11/2008 jo. UU No. 1/2024 (ITE), PP No. 71/2019, dan UU No. 10/2020 (Bea Meterai)",
+          "paragraphs": [
+            {
+              "id": "p16-1",
+              "optional": false,
+              "enabled": true,
+              "text": "PERUBAHAN PERJANJIAN: Tidak ada perubahan, pengesampingan, atau penambahan atas isi Perjanjian ini yang sah dan mengikat kecuali dibuat secara tertulis dalam bentuk Adendum yang ditandatangani oleh perwakilan sah Para Pihak."
+            },
+            {
+              "id": "p16-2",
+              "optional": false,
+              "enabled": true,
+              "text": "LAMPIRAN: Seluruh lampiran, jadwal milestone, dan rincian spesifikasi dalam Perjanjian ini merupakan satu kesatuan yang tidak terpisahkan. Apabila terdapat pertentangan antara ketentuan pada Lampiran dengan pasal-pasal batang tubuh Perjanjian, maka ketentuan batang tubuh Perjanjian yang berlaku."
+            },
+            {
+              "id": "p16-3",
+              "optional": false,
+              "enabled": true,
+              "text": "KEABSAHAN DOKUMEN & TANDA TANGAN ELEKTRONIK: Perjanjian ini disusun dalam Bahasa Indonesia sebagai bahasa resmi yang mengikat. Penandatanganan dokumen ini secara elektronik dilaksanakan dengan merujuk pada Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik sebagaimana terakhir diubah dengan Undang-Undang Nomor 1 Tahun 2024 serta Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik (dengan memperhatikan status tersertifikasi atau tidak tersertifikasinya mekanisme tanda tangan yang digunakan)."
+            },
+            {
+              "id": "p16-4",
+              "optional": false,
+              "enabled": true,
+              "text": "BEA METERAI & KEBERLAKUAN: Kewajiban pembubuhan Bea Meterai (termasuk Meterai Elektronik / e-Meterai) berdasarkan Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai ditanggung oleh {{BEA_METERAI}}. Perjanjian ini mulai berlaku efektif sejak tanggal penandatanganan oleh Para Pihak hingga seluruh kewajiban selesai dipenuhi."
+            },
+            {
+              "id": "p16-5",
+              "optional": false,
+              "enabled": true,
+              "text": "RANGKAP & DOMISILI HUKUM: Perjanjian ini dibuat dalam {{JUMLAH_RANGKAP}} rangkap atau salinan elektronik otentik yang mempunyai kekuatan hukum yang sama bagi masing-masing Pihak. Mengenai Perjanjian ini dan segala akibat hukumnya, Para Pihak memilih tempat kediaman hukum (domisili) yang umum dan tetap di {{DOMISILI_HUKUM}}."
+            }
+          ]
+        }
+      ],
+      "signatures": {
+        "firstParty": {
+          "signed": false,
+          "signerName": "",
+          "signerTitle": "",
+          "signerEmail": "",
+          "signedAt": "",
+          "consentAccepted": false,
+          "consentStatement": "Saya menyatakan berwenang mewakili PT Shansus Dzar Indonesia dan menyetujui seluruh isi Perjanjian ini.",
+          "verificationMethod": "EXPLICIT_CONSENT",
+          "verificationNote": "",
+          "signatureImageDataUrl": "",
+          "documentHashAtSigning": "",
+          "documentVersionAtSigning": 0,
+          "certifiedStatus": "UNVERIFIED_SIMPLE_ESIGN"
+        },
+        "secondParty": {
+          "signed": false,
+          "signerName": "",
+          "signerTitle": "",
+          "signerEmail": "",
+          "signedAt": "",
+          "consentAccepted": false,
+          "consentStatement": "Saya menyatakan berwenang mewakili Artificial Intelligence Laboratorium Indonesia (Alin Labs Indonesia) dan menyetujui seluruh isi Perjanjian ini.",
+          "verificationMethod": "EXPLICIT_CONSENT",
+          "verificationNote": "",
+          "signatureImageDataUrl": "",
+          "documentHashAtSigning": "",
+          "documentVersionAtSigning": 0,
+          "certifiedStatus": "UNVERIFIED_SIMPLE_ESIGN"
+        },
+        "psre": {
+          "mode": "ELECTRONIC_SIMPLE",
+          "provider": "NONE",
+          "providerDisplayName": "Mode A — Tanda Tangan Elektronik Sederhana (Non-PSrE)",
+          "apiBaseUrl": "",
+          "environment": "SANDBOX",
+          "apiKeyConfigured": false,
+          "webhookCallbackUrl": "",
+          "integrationNote": "Siap dihubungkan dengan PSrE Indonesia tersertifikasi Komdigi (PrivyID, VIDA, Peruri, atau TekenSign) melalui konfigurasi API server-side."
+        }
+      },
+      "auditTrail": [
+        {
+          "id": "audit-init-1",
+          "timestamp": "2026-11-20T12:16:27.587Z",
+          "actor": "Alin Labs Legal Engine (.ts)",
+          "action": "CREATED",
+          "summary": "Dokumen Perjanjian Kerja Sama PT Shansus Dzar Indonesia × Alin Labs Indonesia dimuat dari modul kontrak TypeScript.",
+          "versionBefore": 0,
+          "versionAfter": 1,
+          "documentHash": "0e3ee0d69862c7124b90e1cac70aa34847895009b766459e71a3e9d54cb4f5ef"
+        }
+      ],
+      "snapshots": [
+        {
+          "version": 1,
+          "savedAt": "2026-11-20T12:16:27.587Z",
+          "savedBy": "Alin Labs Legal Engine (.ts)",
+          "note": "Dokumen final awal berbasis modul .ts siap untuk pemeriksaan dan penandatanganan",
+          "documentHash": "0e3ee0d69862c7124b90e1cac70aa34847895009b766459e71a3e9d54cb4f5ef",
+          "status": "FINAL_LOCKED"
+        }
+      ]
+    }
+  },
+  "primaryId": "alin-shansus-web-001"
+}

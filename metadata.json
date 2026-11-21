@@ -1,0 +1,8 @@
+{
+  "name": "agreement",
+  "description": "Aplikasi pengelolaan dan pembuatan dokumen Perjanjian Kerja Sama Jasa Pembuatan dan Pengembangan Website antara PT Shansus Dzar Indonesia dan Alin Labs Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,258 @@
+import type { ContractClause } from '../../types/contract';
+
+/**
+ * PASAL 10 - PASAL 16: Garansi & Maintenance, Change Request, Wanprestasi, Force Majeure, Pengakhiran, Sengketa & Penutup.
+ */
+export const CLAUSES_GOVERNANCE_AND_CLOSING: ContractClause[] = [
+  {
+    id: 'pasal-10',
+    articleNumber: 10,
+    title: 'GARANSI SELAMANYA, PENANGANAN ERROR & BIAYA UPDATE',
+    sectionGroup: 'warranty-maintenance',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'Pemisahan tegas garansi error kode sumber selamanya, update kebijakan eksternal, dan perubahan fitur pasca deploy',
+    paragraphs: [
+      {
+        id: 'p10-1',
+        optional: false,
+        enabled: true,
+        text: 'GARANSI SELAMANYA ATAS ERROR CODE / SOURCE: Apabila terjadi error, Bug, atau kendala fungsional yang bersumber dari code atau source code buatan Pihak Kedua (kesalahan dari pihak AlinLabs Indonesia), seluruh perbaikan tersebut sepenuhnya menjadi tanggung jawab Pihak Kedua dan memperoleh garansi selamanya (seumur hidup) tanpa biaya tambahan.',
+      },
+      {
+        id: 'p10-2',
+        optional: false,
+        enabled: true,
+        text: 'CAKUPAN & SLA PENANGANAN ERROR GARANSI: Atas setiap laporan error dari Pihak Pertama yang disebabkan oleh code/source code buatan Pihak Kedua, Pihak Kedua wajib memberikan respon awal selambat-lambatnya dalam {{RESPON_BUG_JAM}} jam pada Hari Kerja dan menuntaskan perbaikan secara gratis sesuai matriks tingkat keparahan (Severity P1, P2, dan P3) pada Lampiran I.',
+      },
+      {
+        id: 'p10-3',
+        optional: false,
+        enabled: true,
+        text: 'PENGECUALIAN — UPDATE SOURCE AKIBAT KEBIJAKAN EKSTERNAL: Dikecualikan dari garansi gratis apabila diperlukan pembaruan kode (update source) akibat perubahan kebijakan layanan pihak ketiga di luar kesalahan kode Pihak Kedua (antara lain pembaruan kebijakan Google, perubahan API eksternal, atau pembaruan ekosistem pihak ketiga). Atas kebutuhan update source tersebut akan dikenakan biaya pembaruan berkisar Rp 50.000 (Lima Puluh Ribu Rupiah) hingga Rp 150.000 (Seratus Lima Puluh Ribu Rupiah) sesuai lingkup penyesuaian teknis. Garansi gratis juga tidak mencakup gangguan akibat modifikasi kode secara sepihak oleh pihak lain tanpa persetujuan tertulis Pihak Kedua.',
+      },
+      {
+        id: 'p10-4',
+        optional: false,
+        enabled: true,
+        text: 'PERGANTIAN FITUR ATAU PEROMBAKAN SETELAH DEPLOY (PUBLISH): Apabila setelah Website di-deploy dan di-publish ke internet Pihak Pertama meminta pergantian fitur hingga perombakan tampilan maupun alur sistem — baik perubahan minor maupun mayor di luar spesifikasi awal Pasal 2 — pekerjaan tersebut akan dikenakan biaya pembaruan (charge update) berkisar mulai dari Rp 100.000 (Seratus Ribu Rupiah) hingga seterusnya tergantung tingkat kompleksitas yang diminta dan disepakati melalui mekanisme Change Request (Pasal 11).',
+      },
+      {
+        id: 'p10-5',
+        optional: false,
+        enabled: true,
+        text: 'PENGELOLAAN BACKUP SERVER & CLOUD DAN LAYANAN OPSIONAL BACKUP & REFRESH: Layanan garansi gratis Pasal 10 ayat (1) tidak mencakup pengelolaan backup rutin server dan Alinlabs Cloud karena tanggung jawab backup diserahkan kepada Pihak Pertama. Apabila Pihak Pertama menyerahkan pengerjaan backup yang rapi serta refresh guna pengoptimalisasian server kembali kepada Pihak Kedua, maka dikenakan biaya tambahan sekitar Rp 150.000 (Seratus Lima Puluh Ribu Rupiah) hingga Rp 250.000 (Dua Ratus Lima Puluh Ribu Rupiah) per project backup & refresh sesuai kesepakatan.',
+      },
+    ],
+  },
+  {
+    id: 'pasal-11',
+    articleNumber: 11,
+    title: 'PERUBAHAN PEKERJAAN & BIAYA UPDATE (CHANGE REQUEST)',
+    sectionGroup: 'warranty-maintenance',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'Kesepakatan perubahan lingkup objek kontrak dan tarif pembaruan pasca deploy (Pasal 1338 KUHPerdata)',
+    paragraphs: [
+      {
+        id: 'p11-1',
+        optional: false,
+        enabled: true,
+        text: 'Apabila selama berjalannya proyek maupun setelah deploy (publish) ke internet Pihak Pertama menghendaki penambahan, pergantian fitur, hingga perombakan (baik minor maupun mayor) di luar ruang lingkup Pasal 2, Pihak Pertama wajib menyampaikan permohonan Perubahan Pekerjaan (Change Request) secara tertulis kepada Pihak Kedua.',
+      },
+      {
+        id: 'p11-2',
+        optional: false,
+        enabled: true,
+        text: 'Selambat-lambatnya 2 (dua) Hari Kerja setelah menerima permohonan Change Request, Pihak Kedua menyampaikan estimasi teknis dan rincian charge biaya update dengan acuan: (a) Rp 50.000 - Rp 150.000 untuk update source penyesuaian kebijakan pihak ketiga/Google; atau (b) mulai dari Rp 100.000 hingga seterusnya untuk pergantian fitur hingga perombakan minor/mayor pasca deploy tergantung kompleksitas yang diminta, beserta estimasi waktu pengerjaan.',
+      },
+      {
+        id: 'p11-3',
+        optional: false,
+        enabled: true,
+        text: 'Perubahan Pekerjaan atau update berbayar tersebut hanya berlaku mengikat dan dikerjakan oleh Pihak Kedua setelah rincian biaya serta jadwalnya disetujui secara tertulis atau melalui korespondensi resmi oleh perwakilan berwenang Para Pihak.',
+      },
+    ],
+  },
+  {
+    id: 'pasal-12',
+    articleNumber: 12,
+    title: 'WANPRESTASI, SANKSI KECURANGAN DAN TANGGUNG JAWAB',
+    sectionGroup: 'termination',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'Pasal 1238, 1243, 1266, 1267, 1304-1312, 1338, 1365 KUHPerdata; UU ITE; UU Hak Cipta; & KUHP',
+    paragraphs: [
+      {
+        id: 'p12-1',
+        optional: false,
+        enabled: true,
+        text: 'Suatu Pihak dinyatakan berada dalam keadaan wanprestasi apabila tidak memenuhi, terlambat memenuhi, atau melanggar kewajiban material yang diatur dalam Perjanjian ini, termasuk keterlambatan pembayaran oleh Pihak Pertama melewati batas jatuh tempo maksimal 7 (tujuh) hari kalender sejak penawaran (quotation) terbit (yang juga memberikan hak pemblokiran sementara situs sesuai Pasal 5 ayat (6)), pelanggaran larangan modifikasi atau penjualan source code pada Pasal 8, maupun penghentian pengerjaan oleh Pihak Kedua tanpa dasar hukum atau persetujuan tertulis.',
+      },
+      {
+        id: 'p12-2',
+        optional: false,
+        enabled: true,
+        text: 'PEMBERITAHUAN PELANGGARAN (SOMASI): Merujuk pada Pasal 1238 KUHPerdata, Pihak yang dirugikan wajib terlebih dahulu menyampaikan pemberitahuan pelanggaran tertulis (notice of breach / somasi) kepada Pihak yang lalai dengan memberikan kesempatan perbaikan (cure period) selama 14 (empat belas) hari kalender sejak tanggal pemberitahuan diterima.',
+      },
+      {
+        id: 'p12-3',
+        optional: false,
+        enabled: true,
+        text: 'AKIBAT WANPRESTASI & GANTI RUGI: Apabila hingga berakhirnya masa kesempatan perbaikan pelanggaran tersebut tetap tidak dipulihkan, maka sesuai Pasal 1266 dan Pasal 1267 KUHPerdata, Pihak yang dirugikan berhak menuntut pemenuhan kewajiban atau mengakhiri Perjanjian disertai tuntutan penggantian biaya dan kerugian langsung yang nyata dan dapat dibuktikan berdasarkan Pasal 1243 KUHPerdata.',
+      },
+      {
+        id: 'p12-4',
+        optional: false,
+        enabled: true,
+        text: 'PEMBATASAN TANGGUNG JAWAB YANG SEIMBANG: Sepanjang tidak bertentangan dengan peraturan perundang-undangan yang bersifat memaksa, total tanggung jawab ganti rugi agregat Pihak Kedua atas segala klaim yang timbul dari pelaksanaan Perjanjian ini dibatasi maksimal sebesar jumlah pembayaran Nilai Kontrak yang secara nyata telah diterima oleh Pihak Kedua dari Pihak Pertama, dan tidak mencakup kerugian tidak langsung, kehilangan pendapatan, atau kehilangan peluang usaha, kecuali dalam hal terbukti adanya kesengajaan (dolus) atau kelalaian berat (culpa lata).',
+      },
+      {
+        id: 'p12-5',
+        optional: false,
+        enabled: true,
+        text: 'SANKSI DAN DENDA ATAS KECURANGAN PIHAK PERTAMA: Apabila Pihak Pertama terbukti melakukan kecurangan dengan itikad buruk — termasuk pemalsuan bukti transfer atau dokumen pembayaran, manipulasi/rekayasa data maupun laporan sistem untuk merugikan Pihak Kedua, penyalahgunaan Website atau Halaman Admin Keuangan untuk tindakan melawan hukum, maupun penyalinan, pembajakan, modifikasi, pengalihan, atau penjualan source code milik Pihak Kedua secara tidak sah — maka terhadap Pihak Pertama dikenakan sanksi berupa: (a) penonaktifan seketika Website serta pencabutan hak guna operasional dan gugurnya seluruh garansi selamanya tanpa kewajiban pengembalian dana (non-refundable); (b) pengenaan denda kontraktual sebesar 20% (dua puluh persen) dari nilai kewajiban yang dicurangi/tertunggak untuk kecurangan administrasi atau pembayaran, dan denda sekurang-kurangnya 2 (dua) kali Nilai Kontrak (Rp 3.710.000) atau sesuai nilai kerugian nyata yang lebih besar dan dapat dibuktikan melalui audit untuk kecurangan teknis, manipulasi sistem, maupun pelanggaran source code; serta (c) kewajiban Pihak Pertama untuk menanggung penuh seluruh tuntutan hukum pihak ketiga dan membebaskan Pihak Kedua dari segala akibat hukum yang timbul.',
+      },
+      {
+        id: 'p12-6',
+        optional: false,
+        enabled: true,
+        text: 'PERTIMBANGAN HUKUM ATAS SANKSI KECURANGAN: Pengenaan sanksi, pencabutan lisensi guna, denda kontraktual, dan ganti rugi sebagaimana dimaksud pada ayat (5) dilaksanakan dengan berlandaskan pada pertimbangan hukum Indonesia yang berlaku, yaitu: (a) Asas itikad baik (good faith) dan kekuatan mengikat perjanjian berdasarkan Pasal 1338 ayat (1) dan ayat (3) KUHPerdata; (b) Ketentuan ancaman denda kontraktual (klausula hukuman/penalty) serta penggantian biaya, kerugian, dan bunga akibat wanprestasi berdasarkan Pasal 1243 serta Pasal 1304 sampai dengan Pasal 1312 KUHPerdata; (c) Pertanggungjawaban Perbuatan Melawan Hukum berdasarkan Pasal 1365 KUHPerdata apabila kecurangan melanggar hak subjektif atau menimbulkan kerugian di luar perikatan pokok; dan (d) Hak Pihak Kedua untuk menempuh pelaporan pidana maupun gugatan hak kekayaan intelektual berdasarkan ketentuan Penipuan/Pemalsuan dalam KUHP (Pasal 378 KUHP jo. UU No. 1 Tahun 2023), UU No. 11 Tahun 2008 jo. UU No. 1 Tahun 2024 tentang Informasi dan Transaksi Elektronik (ITE), serta UU No. 28 Tahun 2014 tentang Hak Cipta, dengan tetap menjunjung tinggi prinsip pembuktian yang sah (rekaman audit sistem/bukti tertulis) serta asas proporsionalitas keadilan.',
+      },
+    ],
+  },
+  {
+    id: 'pasal-13',
+    articleNumber: 13,
+    title: 'KEADAAN KAHAR (FORCE MAJEURE)',
+    sectionGroup: 'termination',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'Pasal 1244 dan Pasal 1245 KUHPerdata mengenai peristiwa di luar kesalahan debitur',
+    paragraphs: [
+      {
+        id: 'p13-1',
+        optional: false,
+        enabled: true,
+        text: 'Keadaan Kahar adalah setiap peristiwa di luar kekuasaan dan kendali wajar Para Pihak yang terjadi setelah Perjanjian ditandatangani dan secara langsung menghalangi pelaksanaan kewajiban Perjanjian ini, antara lain bencana alam, gempa bumi, banjir besar, kebakaran, epidemi/pandemi, perang, kerusuhan massa, gangguan jaringan telekomunikasi atau pusat data berskala nasional, serangan siber masif berskala infrastruktur, atau peraturan/kebijakan pemerintah yang melarang pelaksanaan objek Perjanjian.',
+      },
+      {
+        id: 'p13-2',
+        optional: false,
+        enabled: true,
+        text: 'Pihak yang mengalami Keadaan Kahar wajib menyampaikan pemberitahuan tertulis kepada Pihak lainnya selambat-lambatnya {{FORCE_MAJEURE_HARI}} hari kalender sejak mengetahui terjadinya Keadaan Kahar disertai bukti yang wajar serta melakukan langkah mitigasi untuk meminimalkan dampaknya terhadap proyek.',
+      },
+      {
+        id: 'p13-3',
+        optional: false,
+        enabled: true,
+        text: 'Keterlambatan pelaksanaan akibat Keadaan Kahar tidak dianggap sebagai wanprestasi. Apabila Keadaan Kahar berlangsung terus-menerus melebihi 30 (tiga puluh) hari kalender, Para Pihak sepakat bermusyawarah untuk menyepakati penjadwalan ulang atau mengakhiri Perjanjian secara adil dengan penyelesaian pembayaran secara proporsional atas pekerjaan yang telah diselesaikan.',
+      },
+    ],
+  },
+  {
+    id: 'pasal-14',
+    articleNumber: 14,
+    title: 'PENGAKHIRAN PERJANJIAN',
+    sectionGroup: 'termination',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'Mekanisme pengakhiran, perhitungan proporsional, pengembalian dana & catatan Pasal 1266 KUHPerdata',
+    paragraphs: [
+      {
+        id: 'p14-1',
+        optional: false,
+        enabled: true,
+        text: 'Perjanjian ini berakhir apabila: (a) seluruh kewajiban Para Pihak telah selesai dilaksanakan dan BAST telah ditandatangani; (b) terdapat kesepakatan tertulis bersama antara Para Pihak untuk mengakhiri Perjanjian; atau (c) diakhiri oleh salah satu Pihak karena wanprestasi material yang tidak diperbaiki setelah masa teguran Pasal 12 berakhir.',
+      },
+      {
+        id: 'p14-2',
+        optional: false,
+        enabled: true,
+        text: 'PEMBATALAN PEKERJAAN SEPIHAK: Dalam hal Pihak Pertama membatalkan proyek atau mengakhiri Perjanjian sebelum selesai tanpa adanya wanprestasi dari Pihak Kedua dengan pemberitahuan tertulis minimal {{TERMINASI_HARI}} hari kalender sebelumnya, Para Pihak wajib melakukan audit progres pekerjaan yang telah diselesaikan secara sah hingga tanggal efektif pengakhiran.',
+      },
+      {
+        id: 'p14-3',
+        optional: false,
+        enabled: true,
+        text: 'PERHITUNGAN PEMBAYARAN & PENGEMBALIAN DANA (REFUND): Apabila total pembayaran yang telah diterima Pihak Kedua (termasuk DP yang dibayarkan sebelum Perjanjian) lebih besar daripada nilai progres pekerjaan yang telah dikerjakan secara proporsional ditambah biaya komitmen lisensi/infrastruktur pihak ketiga yang tidak dapat dibatalkan, Pihak Kedua wajib mengembalikan selisih lebihnya kepada Pihak Pertama selambat-lambatnya 14 (empat belas) Hari Kerja. Sebaliknya, apabila nilai progres pekerjaan lebih besar daripada total dana yang telah diterima, Pihak Pertama wajib melunasi selisihnya terlebih dahulu.',
+      },
+      {
+        id: 'p14-4',
+        optional: false,
+        enabled: true,
+        text: 'PENYERAHAN DATA MILIK KLIEN & PENGHAPUSAN DATA: Sepanjang kewajiban pembayaran proporsional hingga tahap pengakhiran telah diselesaikan, Pihak Kedua wajib menyerahkan seluruh materi konten dan data bisnis milik Pihak Pertama (tidak termasuk source code dan komponen program yang tetap menjadi Hak Kekayaan Intelektual milik Pihak Kedua sesuai Pasal 8) serta melaksanakan pengembalian atau penghapusan data rahasia sesuai Pasal 9 ayat (5).',
+      },
+      {
+        id: 'p14-5',
+        optional: true,
+        enabled: true,
+        text: 'Para Pihak sepakat mengesampingkan ketentuan Pasal 1266 Kitab Undang-Undang Hukum Perdata sepanjang mengenai persyaratan putusan hakim untuk mengakhiri Perjanjian ini secara sepihak berdasarkan syarat batal yang diatur dalam Perjanjian.',
+      },
+    ],
+  },
+  {
+    id: 'pasal-15',
+    articleNumber: 15,
+    title: 'PENYELESAIAN PERSELISIHAN',
+    sectionGroup: 'dispute-resolution',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'Musyawarah mufakat dan mekanisme penyelesaian sengketa lanjutan',
+    paragraphs: [
+      {
+        id: 'p15-1',
+        optional: false,
+        enabled: true,
+        text: 'Apabila timbul perbedaan penafsiran atau perselisihan sehubungan dengan pelaksanaan Perjanjian ini, Para Pihak wajib mengutamakan penyelesaian secara damai melalui musyawarah untuk mufakat dalam jangka waktu paling lama 30 (tiga puluh) hari kalender sejak tanggal pemberitahuan tertulis mengenai perselisihan diterima.',
+      },
+      {
+        id: 'p15-2',
+        optional: false,
+        enabled: true,
+        text: 'Apabila musyawarah untuk mufakat tidak menghasilkan kesepakatan dalam jangka waktu tersebut, Para Pihak sepakat menyelesaikan sengketa melalui mediasi terlebih dahulu atau langsung melalui {{FORUM_SENGKETA}}.',
+      },
+    ],
+  },
+  {
+    id: 'pasal-16',
+    articleNumber: 16,
+    title: 'KETENTUAN PENUTUP',
+    sectionGroup: 'dispute-resolution',
+    enabled: true,
+    optional: false,
+    legalBasisHint: 'UU No. 11/2008 jo. UU No. 1/2024 (ITE), PP No. 71/2019, dan UU No. 10/2020 (Bea Meterai)',
+    paragraphs: [
+      {
+        id: 'p16-1',
+        optional: false,
+        enabled: true,
+        text: 'PERUBAHAN PERJANJIAN: Tidak ada perubahan, pengesampingan, atau penambahan atas isi Perjanjian ini yang sah dan mengikat kecuali dibuat secara tertulis dalam bentuk Adendum yang ditandatangani oleh perwakilan sah Para Pihak.',
+      },
+      {
+        id: 'p16-2',
+        optional: false,
+        enabled: true,
+        text: 'LAMPIRAN: Seluruh lampiran, jadwal milestone, dan rincian spesifikasi dalam Perjanjian ini merupakan satu kesatuan yang tidak terpisahkan. Apabila terdapat pertentangan antara ketentuan pada Lampiran dengan pasal-pasal batang tubuh Perjanjian, maka ketentuan batang tubuh Perjanjian yang berlaku.',
+      },
+      {
+        id: 'p16-3',
+        optional: false,
+        enabled: true,
+        text: 'KEABSAHAN DOKUMEN & TANDA TANGAN ELEKTRONIK: Perjanjian ini disusun dalam Bahasa Indonesia sebagai bahasa resmi yang mengikat. Penandatanganan dokumen ini secara elektronik dilaksanakan dengan merujuk pada Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik sebagaimana terakhir diubah dengan Undang-Undang Nomor 1 Tahun 2024 serta Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik (dengan memperhatikan status tersertifikasi atau tidak tersertifikasinya mekanisme tanda tangan yang digunakan).',
+      },
+      {
+        id: 'p16-4',
+        optional: false,
+        enabled: true,
+        text: 'BEA METERAI & KEBERLAKUAN: Kewajiban pembubuhan Bea Meterai (termasuk Meterai Elektronik / e-Meterai) berdasarkan Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai ditanggung oleh {{BEA_METERAI}}. Perjanjian ini mulai berlaku efektif sejak tanggal penandatanganan oleh Para Pihak hingga seluruh kewajiban selesai dipenuhi.',
+      },
+      {
+        id: 'p16-5',
+        optional: false,
+        enabled: true,
+        text: 'RANGKAP & DOMISILI HUKUM: Perjanjian ini dibuat dalam {{JUMLAH_RANGKAP}} rangkap atau salinan elektronik otentik yang mempunyai kekuatan hukum yang sama bagi masing-masing Pihak. Mengenai Perjanjian ini dan segala akibat hukumnya, Para Pihak memilih tempat kediaman hukum (domisili) yang umum dan tetap di {{DOMISILI_HUKUM}}.',
+      },
+    ],
+  },
+];
