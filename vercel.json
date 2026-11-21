@@ -1,0 +1,35 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/penawaran",
+      "destination": "/penawaran.html"
+    },
+    {
+      "source": "/penawaran/",
+      "destination": "/penawaran.html"
+    },
+    {
+      "source": "/invoice",
+      "destination": "/penawaran.html"
+    },
+    {
+      "source": "/invoice/",
+      "destination": "/penawaran.html"
+    },
+    {
+      "source": "/kontrak",
+      "destination": "/kontrak.html"
+    },
+    {
+      "source": "/kontrak/",
+      "destination": "/kontrak.html"
+    },
+    {
+      "source": "/((?!api/|assets/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
